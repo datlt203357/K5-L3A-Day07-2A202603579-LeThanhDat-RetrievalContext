@@ -7,7 +7,7 @@
 | `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
 
-Starter **chưa phải solution hoàn chỉnh**. Bạn phải nối model và vector store thật, triển khai ít nhất 3 phương pháp retrieval do bạn chọn, gồm dense trên vector store Day 6. Mock chỉ dùng để test code.
+Repo hiện có runner agent thật dùng GPT-4o mini qua endpoint OpenAI-compatible, dense retrieval trên vector store Day 6, TF-IDF và hybrid RRF. `agentic.py` vẫn là khung ví dụ; các lệnh benchmark bên dưới dùng `run_agent_benchmark.py` và adapter trong repo. Mock trong unit test chỉ kiểm tra logic, không phải kết quả benchmark.
 
 ## 1. Kết nối agent
 
@@ -17,6 +17,37 @@ Trong `agentic.py`, hiện thực:
 - `Retriever.search`: tạo query embedding tương thích Day 6, truy vấn vector store thật và trả chunk theo [định dạng dữ liệu](../data/README.md).
 
 Tự viết chương trình nối hai phần với `run_agent`, hoặc thay thế bằng kiến trúc nhiều tool. Tham số `max_searches`, `top_k` và `budget` chỉ là mặc định của ví dụ, không phải giới hạn của đề. Xem `tests/test_agentic.py` để hiểu cách gọi; kết nối trong test là mock. Khung code kiểm tra citation ID có trong context, nhưng bạn phải tự đọc xem nguồn có hỗ trợ câu trả lời. Báo lỗi kết nối, không thay bằng kết quả giả.
+
+### Dùng GPT-4o mini
+
+Đã có adapter `openai_controller.py` và runner `run_agent_benchmark.py`. Cài OpenAI Python SDK vào virtual environment Day 6 (runner cần chung môi trường với pgvector/Sentence Transformers):
+
+```powershell
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' -m pip install openai
+```
+
+Tạo `.env` từ mẫu ở **thư mục gốc Day 7**. File `.env` đã được Git ignore. Điền API key ShopAIKey của bạn tại máy, không commit hoặc gửi key trong chat:
+
+```powershell
+Copy-Item .env.example .env
+notepad .env
+```
+
+Giữ các giá trị `OPENAI_BASE_URL` và `AGENT_MODEL` trong mẫu; chỉ thay `YOUR_SHOPAIKEY_API_KEY` bằng key của bạn.
+
+Trước khi chạy benchmark, có thể gửi một yêu cầu ngắn để kiểm tra endpoint/key/model. Yêu cầu này dùng API và có thể phát sinh phí:
+
+```powershell
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' -c "from dotenv import load_dotenv; import os; from openai import OpenAI; load_dotenv('.env'); c=OpenAI(api_key=os.environ['OPENAI_API_KEY'],base_url=os.getenv('OPENAI_BASE_URL')); r=c.chat.completions.create(model=os.getenv('AGENT_MODEL'),messages=[{'role':'user','content':'Reply with OK only.'}],max_tokens=8); print(r.choices[0].message.content)"
+```
+
+Sau khi smoke check trả về `OK`, chạy agent trên **dev** trước:
+
+```powershell
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\run_agent_benchmark.py --split dev --retriever hybrid_rrf --max-searches 2 --top-k 3 --candidate-k 10 --budget 1600 --output starter\results\agent-dev-gpt4o-mini
+```
+
+Runner chỉ đưa `id` và câu hỏi vào agent; gold/evidence không được gửi lên API. Nó ghi `traces.json` và `run_metadata.json`, gồm tool calls, context, câu trả lời, citations, lỗi và token usage. Chi phí thực tế tùy nhóm giá của key; đối chiếu token usage với bảng giá tài khoản. Báo cáo có thể kèm ước tính theo [bảng giá model ShopAIKey](https://shopaikey.com/models), nhưng ước tính công khai không thay thế hóa đơn. GPT-4o mini hỗ trợ function calling; key ShopAIKey cũng cần được cấp quyền cho đúng model ID. Nếu nhận lỗi model không có quyền, kiểm tra nhóm model của key và tên ID trong danh mục ShopAIKey.
 
 ## 2. Chạy TF-IDF baseline
 
@@ -28,6 +59,37 @@ python3 starter/baseline.py --chunks data/example_chunks.json --questions data/e
 ```
 
 Kết quả có `summary.json` và `traces.json`. Dữ liệu mẫu chỉ có một câu, không đủ để nộp bài. TF-IDF là lexical retrieval, không dùng filter và không thay dense retrieval.
+
+## 2a. So sánh Day 6 dense, TF-IDF và hybrid RRF
+
+`day6_retrieval.py` nối trực tiếp `MyEmbedder` và `PgVectorStore` từ Day 6. Chạy từ repo Day 7 bằng Python trong virtual environment Day 6:
+
+```powershell
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\day6_retrieval.py --split dev --strategy B --candidate-k 10 --budget 800 --output starter\results\d7-retrieval-dev
+```
+
+Script dùng model và `DATABASE_URL` trong `D:\Workspace\AI20K\Lab Day 6\starter\.env`, kiểm tra vector dimension 384, rồi ghi `summary.json`, `traces.json` và `run_metadata.json`. Ba phương pháp được so sánh là dense pgvector, TF-IDF và hybrid Reciprocal Rank Fusion (RRF, k=60). Gold chỉ được dùng sau retrieval để chấm evidence.
+
+Tham số thử trên dev, mỗi lần dùng thư mục output mới:
+
+```powershell
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\day6_retrieval.py --split dev --strategy B --candidate-k 20 --budget 800 --output starter\results\d7-hybrid-k20-dev
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\day6_retrieval.py --split dev --strategy B --candidate-k 10 --budget 1200 --output starter\results\d7-hybrid-budget1200-dev
+```
+
+Chỉ chạy `--split test` sau khi đã chốt cấu hình dựa trên dev. Nếu Day 6 ở vị trí khác, đặt biến môi trường `DAY6_ROOT` tới thư mục repo Day 6 trước khi gọi script.
+
+Để tái tạo so sánh test đã khóa, chạy lexical-only agent baseline và hybrid agent với cùng model, top-k, context budget và benchmark; đồng thời chạy retrieval-only so sánh ba phương pháp. Các lệnh test chỉ đánh giá, không dùng kết quả để đổi cấu hình:
+
+```powershell
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\run_agent_benchmark.py --split test --retriever tfidf --max-searches 2 --top-k 3 --candidate-k 10 --budget 1600 --output starter\results\agent-test-gpt4o-mini-tfidf
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\run_agent_benchmark.py --split test --retriever hybrid_rrf --max-searches 2 --top-k 3 --candidate-k 10 --budget 1600 --output starter\results\agent-test-gpt4o-mini-hybrid
+& 'D:\Workspace\AI20K\Lab Day 6\starter\.venv\Scripts\python.exe' starter\day6_retrieval.py --split test --strategy B --candidate-k 10 --budget 800 --output starter\results\d7-retrieval-test-locked
+```
+
+Sau khi đọc context, câu trả lời và từng citation, ghi một nhãn `citation_support` cho **mỗi** citation, `answer_grade` (0–2) cho câu có đáp án, `abstention_correct` cho câu thiếu evidence, và `context_grade` (0–2) cho 5 câu test có đáp án. Dùng `agent_metrics.py` để tổng hợp các nhãn; không để script tự đoán độ đúng.
+
+Nếu cần tái tạo `data/day6_chunks_B.json` từ vector store Day 6, xem [hướng dẫn corpus](../data/README.md#tái-tạo-corpus-day-6-dùng-cho-day-7) và chạy `starter/export_day6_chunks.py`. File xuất chứa toàn văn nguồn và chỉ được chia sẻ khi có quyền.
 
 ## 3. Dùng dữ liệu Day 6
 
