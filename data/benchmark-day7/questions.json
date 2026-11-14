@@ -1,0 +1,142 @@
+[
+  {
+    "id": "d7-dev-01",
+    "split": "dev",
+    "question": "Theo sổ tay, mức điểm rèn luyện nào được xếp loại xuất sắc?",
+    "expected_answer": "Từ 90 đến 100 điểm.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 10, "evidence": "Từ 90 điểm đến 100 điểm: loại xuất sắc;"}]
+  },
+  {
+    "id": "d7-dev-02",
+    "split": "dev",
+    "question": "Chương trình ATM quà hướng đến những mục đích nào?",
+    "expected_answer": "Tránh lãng phí cho cá nhân và xã hội, góp phần bảo vệ môi trường và lan tỏa yêu thương.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 20, "evidence": "Mục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương."}]
+  },
+  {
+    "id": "d7-dev-03",
+    "split": "dev",
+    "question": "Sinh viên có thể làm gì trên chương trình ATM quà?",
+    "expected_answer": "Cho tặng hoặc tìm các món đồ mới/cũ miễn phí.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 20, "evidence": "ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí."}]
+  },
+  {
+    "id": "d7-dev-04",
+    "split": "dev",
+    "question": "Tổ Tư vấn và Hỗ trợ Sinh viên tiếp sinh viên trực tiếp ở địa chỉ nào?",
+    "expected_answer": "Phòng 101-C1, Đại học Bách khoa Hà Nội.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 21, "evidence": "Địa chỉ: Phòng 101-C1, ĐHBK Hà Nội"}]
+  },
+  {
+    "id": "d7-dev-05",
+    "split": "dev",
+    "question": "HUST triển khai web và app eHUST từ năm học nào?",
+    "expected_answer": "Từ năm học 2021–2022.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 22, "evidence": "Từ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến"}]
+  },
+  {
+    "id": "d7-dev-06",
+    "split": "dev",
+    "question": "Ứng dụng eHUST có thể nhắc sinh viên những thông tin gì?",
+    "expected_answer": "Lịch học, lịch công việc, tin tức và thông báo quan trọng.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 22, "evidence": "Nhắc lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng."}]
+  },
+  {
+    "id": "d7-dev-07",
+    "split": "dev",
+    "question": "Hệ thống sổ tay sinh viên trực tuyến hỗ trợ công việc gì?",
+    "expected_answer": "Hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 23, "evidence": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên."}]
+  },
+  {
+    "id": "d7-dev-08",
+    "split": "dev",
+    "question": "Sinh viên được cấp loại tài khoản nào để truy cập cổng thông tin và đăng ký học phần?",
+    "expected_answer": "Tài khoản email sinh viên được cấp để truy cập hệ thống cổng thông tin.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 23, "evidence": "mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học"}]
+  },
+  {
+    "id": "d7-dev-09",
+    "split": "dev",
+    "question": "Đảng ủy Khối các trường ĐH, CĐ Hà Nội nhận hồ sơ chuyển sinh hoạt Đảng vào những buổi nào và trong khung giờ nào?",
+    "expected_answer": "Sáng thứ Ba, thứ Tư và thứ Năm hằng tuần, từ 8 giờ 30 đến 11 giờ.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 25, "evidence": "Các buổi sáng Thứ Ba, Thứ Tư và Thứ Năm hàng tuần, từ 8 giờ 30 đến 11 giờ 00."}]
+  },
+  {
+    "id": "d7-dev-10",
+    "split": "dev",
+    "question": "Chi bộ sinh viên họp chính trị định kỳ với tần suất thế nào?",
+    "expected_answer": "Mỗi tháng một lần.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 26, "evidence": "Chi bộ sinh viên họp định kỳ mỗi tháng một lần"}]
+  },
+  {
+    "id": "d7-dev-11",
+    "split": "dev",
+    "question": "Hội Sinh viên đại diện cho nhóm nào trong trường?",
+    "expected_answer": "Đại diện cho sinh viên toàn trường.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 27, "evidence": "Hội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường."}]
+  },
+  {
+    "id": "d7-dev-12",
+    "split": "dev",
+    "question": "Sổ tay mô tả nhiệm vụ chính của Ban Công tác Sinh viên đối với người học là gì?",
+    "expected_answer": "Quản lý, tư vấn và hỗ trợ người học; tạo điều kiện để họ phát huy năng lực và hoàn thiện nhân cách, kỹ năng nghề nghiệp, kỹ năng sống.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 28, "evidence": "Quản lý, tư vấn và hỗ trợ người học; tạo điều kiện, hỗ trợ người học, đặc biệt người học yếu thế"}]
+  },
+  {
+    "id": "d7-dev-13",
+    "split": "dev",
+    "question": "Văn phòng Quản lý ký túc xá được ghi ở địa chỉ nào?",
+    "expected_answer": "B9 - 101, 102, 103.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 29, "evidence": "Văn phòng Quản lý ký túc xá: Bộ phận An ninh: Văn phòng Trung tâm Phục vụ Bách khoa: B9 - 101, 102, 103"}]
+  },
+  {
+    "id": "d7-dev-14",
+    "split": "dev",
+    "question": "Trường Cơ khí có bao nhiêu chương trình đào tạo theo sổ tay?",
+    "expected_answer": "13 chương trình đào tạo.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 30, "evidence": "Trường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT)."}]
+  },
+  {
+    "id": "d7-dev-15",
+    "split": "dev",
+    "question": "Trường Điện – Điện tử gồm những đơn vị đào tạo và nghiên cứu nào theo phần giới thiệu?",
+    "expected_answer": "Gồm 4 khoa, 1 trung tâm đào tạo thực hành và 1 viện nghiên cứu.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 31, "evidence": "Bao gồm 4 khoa, 1 trung tâm đào tạo thực hành & 1 viện nghiên cứu."}]
+  },
+  {
+    "id": "d7-test-01",
+    "split": "test",
+    "question": "Theo lời khuyên ôn thi trong sổ tay, vì sao cần nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó?",
+    "expected_answer": "Vì chỉ khi nắm kiến thức cơ bản, sinh viên mới có thể trả lời câu hỏi khó hơn.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 41, "evidence": "Chỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn."}]
+  },
+  {
+    "id": "d7-test-02",
+    "split": "test",
+    "question": "Đề cương và đề thi các năm trước được sổ tay cho biết có sẵn ở đâu?",
+    "expected_answer": "Tại Thư viện Tạ Quang Bửu.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 42, "evidence": "Đề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu."}]
+  },
+  {
+    "id": "d7-test-03",
+    "split": "test",
+    "question": "Sổ tay cho rằng học với bạn cùng lứa có thể giúp việc tiếp cận kiến thức như thế nào?",
+    "expected_answer": "Bạn cùng lứa có thể diễn đạt theo cách đơn giản và dễ hiểu hơn.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 43, "evidence": "Chính với cùng lứa tuổi mình mới có ngôn từ và ngôn ngữ diễn tả cho ta một cách đơn giản hơn, dễ hiểu hơn"}]
+  },
+  {
+    "id": "d7-test-04",
+    "split": "test",
+    "question": "Theo con số được sổ tay dẫn lại, tỷ lệ thành công gắn với kiến thức chuyên môn và kỹ năng mềm lần lượt là bao nhiêu?",
+    "expected_answer": "15% do kiến thức chuyên môn và 85% do kỹ năng mềm.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 44, "evidence": "Thực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia)."}]
+  },
+  {
+    "id": "d7-test-05",
+    "split": "test",
+    "question": "Nêu ba kỹ năng mà sinh viên có thể học được khi tham gia điều hành một tổ chức sinh viên.",
+    "expected_answer": "Lập kế hoạch tổ chức sự kiện, quản lý tài chính và phối hợp các thành viên.",
+    "gold": [{"source_id": "hust_handbook_2026", "page": 50, "evidence": "Bạn sẽ có thể đạt được kỹ năng quan trọng khác như kế hoạch tổ chức sự kiện, quản lý tài chính, phối hợp các thành viên của tổ chức khác."}]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "d7-dev-u01",
+    "split": "dev",
+    "question": "Mật khẩu Wi-Fi dành cho sinh viên tại Thư viện Tạ Quang Bửu là gì?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu có giới thiệu thư viện và quy tắc sử dụng, nhưng không cung cấp tên mạng hoặc mật khẩu Wi-Fi."
+  },
+  {
+    "id": "d7-dev-u02",
+    "split": "dev",
+    "question": "Thư viện Tạ Quang Bửu mở cửa đến mấy giờ vào Chủ nhật?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu có bảng phòng/chức năng thư viện nhưng không nêu lịch mở cửa theo ngày hoặc giờ Chủ nhật."
+  },
+  {
+    "id": "d7-test-u01",
+    "split": "test",
+    "question": "Mức học phí chính thức trên mỗi tín chỉ của Trường Cơ khí trong năm học 2026–2027 là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu không có biểu phí theo tín chỉ cho Trường Cơ khí hoặc mức học phí năm học 2026–2027; học phí chỉ xuất hiện trong ngữ cảnh học bổng/chính sách."
+  },
+  {
+    "id": "d7-test-u02",
+    "split": "test",
+    "question": "Phòng tự học của Thư viện Tạ Quang Bửu có sức chứa tối đa bao nhiêu chỗ ngồi?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu nêu số phòng và chức năng thư viện nhưng không ghi sức chứa hoặc số ghế của phòng tự học."
+  }
+]
