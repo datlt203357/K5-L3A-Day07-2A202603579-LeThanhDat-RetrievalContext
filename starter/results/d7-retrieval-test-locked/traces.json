@@ -1,0 +1,978 @@
+[
+  {
+    "query_id": "d7-test-01",
+    "split": "test",
+    "question": "Theo lời khuyên ôn thi trong sổ tay, vì sao cần nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Hệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.6863455959352508,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.6708269519106729,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p51:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 51,
+        "text": "Không ai có thể thành tài và nên người mà không có sự dẫn dắt. Có thể bạn chăm chỉ, thông minh và khéo léo nhưng bạn cần được hướng dẫn thì những tố chất kia mới có thể hỗ trợ đắc lực và biến những điều bạn từng làm thành kinh nghiệm thực tế. Nên hỏi, xin ý kiến và lời tư vấn của người đi trước để có những chỉ dẫn thiết thực, lời khuyên bổ ích giá trị.",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.6026631830535433,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p41:paragraph:0004 | So tay sinh vien_2026.pdf | page 41]\nHệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+    "context_ids": [
+      "hust_handbook_2026:p41:paragraph:0004",
+      "hust_handbook_2026:p42:paragraph:0000:token:001"
+    ],
+    "context_chars": 689,
+    "elapsed_ms": 377.500900067389,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-test-02",
+    "split": "test",
+    "question": "Đề cương và đề thi các năm trước được sổ tay cho biết có sẵn ở đâu?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.5889682945301623,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p2:paragraph:0006:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 2,
+        "text": "10/2026 Tổ chức chuỗi hoạt động kỷ niệm 70 năm thành lập trường (1956–2026), khẳng định chặng đường bảy thập kỷ phát triển và đổi mới sáng tạo.\n\nMùng 1 Tết Mậu Tuất 1958, Bác về thăm Trường ĐHBK Hà Nội lần đầu tiên.\n\nNgày",
+        "metadata": {
+          "section": "gioi_thieu",
+          "parent_chunk_id": "hust_handbook_2026:p2:paragraph:0006",
+          "token_safe_split": true
+        },
+        "score": 0.47928541651790424,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p3:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 3,
+        "text": "Đó cũng chính là sứ mệnh mà Đại học Bách khoa Hà Nội lựa chọn và theo đuổi.\n\nGS. Lê Anh Tuấn Giám đốc ĐHBK Hà Nội\n\nVỮNG BƯỚC\n\nTRONG KỶ NGUYÊN MỚI\n\nVỚI HÀNH TRANG 70 NĂM TỰ HÀO\n\n“ “",
+        "metadata": {
+          "section": "gioi_thieu"
+        },
+        "score": 0.4457881583508303,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p42:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 42]\n82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không\n\n[hust_handbook_2026:p2:paragraph:0006:token:000 | So tay sinh vien_2026.pdf | page 2]\n10/2026 Tổ chức chuỗi hoạt động kỷ niệm 70 năm thành lập trường (1956–2026), khẳng định chặng đường bảy thập kỷ phát triển và đổi mới sáng tạo.\n\nMùng 1 Tết Mậu Tuất 1958, Bác về thăm Trường ĐHBK Hà Nội lần đầu tiên.\n\nNgày",
+    "context_ids": [
+      "hust_handbook_2026:p42:paragraph:0000:token:000",
+      "hust_handbook_2026:p2:paragraph:0006:token:000"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 63.607199932448566,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-03",
+    "split": "test",
+    "question": "Sổ tay cho rằng học với bạn cùng lứa có thể giúp việc tiếp cận kiến thức như thế nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Hệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.6958419084549,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.6896684991918205,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p53:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 53,
+        "text": "Hãy học cách thích nghi, tránh khép mình và cảm thấy mặc cảm về việc bạn không biết điều gì đó, nên nhớ ở đây mọi thứ cần sự chủ động càng sớm thích nghi tốt hơn bạn sẽ càng thoải mái hơn trong cuộc sống lẫn học tập.\n\nHãy tìm những",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p53:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.6878982205299935,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p41:paragraph:0004 | So tay sinh vien_2026.pdf | page 41]\nHệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+    "context_ids": [
+      "hust_handbook_2026:p41:paragraph:0004",
+      "hust_handbook_2026:p42:paragraph:0000:token:001"
+    ],
+    "context_chars": 689,
+    "elapsed_ms": 55.79240003135055,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-test-04",
+    "split": "test",
+    "question": "Theo con số được sổ tay dẫn lại, tỷ lệ thành công gắn với kiến thức chuyên môn và kỹ năng mềm lần lượt là bao nhiêu?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p44:paragraph:0002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 44,
+        "text": "Thực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.8125800136500605,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.6776209281457036,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "nhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.6179822087287903,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p44:paragraph:0002 | So tay sinh vien_2026.pdf | page 44]\nThực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+    "context_ids": [
+      "hust_handbook_2026:p44:paragraph:0002",
+      "hust_handbook_2026:p42:paragraph:0000:token:001"
+    ],
+    "context_chars": 761,
+    "elapsed_ms": 55.00729999039322,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-05",
+    "split": "test",
+    "question": "Nêu ba kỹ năng mà sinh viên có thể học được khi tham gia điều hành một tổ chức sinh viên.",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p19:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 19,
+        "text": "Nhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.718414843082428,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "nhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.7071343064308167,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p9:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 9,
+        "text": "ký các học phần phù hợp với năng lực và mục tiêu đã đề ra trong từng học kỳ Cân bằng phân bổ thời gian giữa học tập và các hoạt động xã hội, hoạt động tăng cường kỹ năng\n\nTỰ LẬP BẢNG THEO DÕI\n\nQUÁ TRÌNH HỌC TẬP",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p9:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.6794379162453376,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p19:paragraph:0001 | So tay sinh vien_2026.pdf | page 19]\nNhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP\n\n[hust_handbook_2026:p20:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 20]\nnhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+    "context_ids": [
+      "hust_handbook_2026:p19:paragraph:0001",
+      "hust_handbook_2026:p20:paragraph:0001:token:001"
+    ],
+    "context_chars": 750,
+    "elapsed_ms": 55.60289998538792,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-test-01",
+    "split": "test",
+    "question": "Theo lời khuyên ôn thi trong sổ tay, vì sao cần nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Một tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.3272870560110799,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Hệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.2578158446317042,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.2557772695316643,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p41:paragraph:0005 | So tay sinh vien_2026.pdf | page 41]\nMột tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+    "context_ids": [
+      "hust_handbook_2026:p41:paragraph:0005",
+      "hust_handbook_2026:p42:paragraph:0000:token:001"
+    ],
+    "context_chars": 773,
+    "elapsed_ms": 2.3918000515550375,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-02",
+    "split": "test",
+    "question": "Đề cương và đề thi các năm trước được sổ tay cho biết có sẵn ở đâu?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.40798860298593703,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.20403257328668098,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p44:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 44,
+        "text": "Rèn luyện cho mình kỹ năng tin học ở một trình độ nhất định sẽ giúp bạn rất nhiều kể cả ở trong trường đại học, ở nhà hay sau này đi xin việc ở bất kỳ đâu.\n\nTrước tiên bạn phải sử dụng được bàn phím một cách thành thạo với nhiều ngón tay nhất có thể, dùng tốt Office (Word, Excel, Power- Point). Đồng thời, việc sử dụng tốt công cụ tìm kiếm trong việc tra cứu tài liệu trên mạng cũng là một kỹ năng cực kỳ quan trọng nhé.\n\nKỸ NĂNG MỀM",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.19487734708762341,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p42:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 42]\n82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+    "context_ids": [
+      "hust_handbook_2026:p42:paragraph:0000:token:000"
+    ],
+    "context_chars": 315,
+    "elapsed_ms": 2.9151999624446034,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-03",
+    "split": "test",
+    "question": "Sổ tay cho rằng học với bạn cùng lứa có thể giúp việc tiếp cận kiến thức như thế nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.20748468525255442,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p52:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 52,
+        "text": "Gia sư: là công việc làm thêm phổ biến nhất của các bạn sinh viên. Công việc này vừa giúp bạn ôn lại kiến thức, vừa nâng cao khả năng giảng dạy cũng như kỹ năng giao tiếp, khả năng truyền đạt của các bạn. Đây là công việc dễ dàng và có được thu",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p52:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.2033039314536171,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p51:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 51,
+        "text": "uống,... và đủ thứ “tiền tiền và tiền” khác. Nhưng tất cả những điều đó cuối cùng cũng là để việc học của bạn được đảm bảo và hoàn thành một cách trọn vẹn, tốt đẹp hơn. Hãy luôn nhớ rằng bạn đi làm vì muốn học hỏi thêm kiến thức và tiếp thu kinh nghiệm chứ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p51:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.18976159418774546,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0003"
+    ],
+    "context_chars": 522,
+    "elapsed_ms": 3.5083999391645193,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-test-04",
+    "split": "test",
+    "question": "Theo con số được sổ tay dẫn lại, tỷ lệ thành công gắn với kiến thức chuyên môn và kỹ năng mềm lần lượt là bao nhiêu?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p44:paragraph:0002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 44,
+        "text": "Thực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.26643177870904683,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "nhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.20551045009721092,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Hàng kỳ, nhà trường tổ chức các khóa học kỹ năng mềm, kỹ năng nghề nghiệp, các buổi tọa đàm, hội thảo giúp sinh viên nâng cao kỹ năng mềm với sự tham gia của các giảng viên, các chuyên gia, nhà tuyển dụng đến từ doanh nghiệp và các đối tác khác của",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.19044587488424503,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p44:paragraph:0002 | So tay sinh vien_2026.pdf | page 44]\nThực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87\n\n[hust_handbook_2026:p20:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 20]\nnhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+    "context_ids": [
+      "hust_handbook_2026:p44:paragraph:0002",
+      "hust_handbook_2026:p20:paragraph:0001:token:001"
+    ],
+    "context_chars": 779,
+    "elapsed_ms": 3.719200030900538,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-05",
+    "split": "test",
+    "question": "Nêu ba kỹ năng mà sinh viên có thể học được khi tham gia điều hành một tổ chức sinh viên.",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p50:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 50,
+        "text": "Bạn sẽ có thể đạt được kỹ năng quan trọng khác như kế hoạch tổ chức sự kiện, quản lý tài chính, phối hợp các thành viên của tổ chức khác. Hãy mau mau tìm một câu lạc bộ, đội tình nguyện mà bạn yêu thích và nếu bạn làm việc chăm chỉ, bạn có thể có thể đạt được một vị trí nhất định.",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.2792791919390052,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "38 39\n\nPHÁT TRIỂN KỸ NĂNG MỀM\n\nCHO SINH VIÊN\n\nKHÓA HỌC KỸ NĂNG MỀM CHO SINH VIÊN THAM GIA\n\nCÁC CÔNG TÁC XÃ HỘI\n\nKHÓA HỌC KỸ NĂNG ỨNG TUYỂN CÔNG VIỆC\n\nSinh viên, lực lượng lao động chính trong tương lai sẽ làm việc trong môi trường toàn",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.26045020917012107,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Hàng kỳ, nhà trường tổ chức các khóa học kỹ năng mềm, kỹ năng nghề nghiệp, các buổi tọa đàm, hội thảo giúp sinh viên nâng cao kỹ năng mềm với sự tham gia của các giảng viên, các chuyên gia, nhà tuyển dụng đến từ doanh nghiệp và các đối tác khác của",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.259248544575107,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p50:paragraph:0001 | So tay sinh vien_2026.pdf | page 50]\nBạn sẽ có thể đạt được kỹ năng quan trọng khác như kế hoạch tổ chức sự kiện, quản lý tài chính, phối hợp các thành viên của tổ chức khác. Hãy mau mau tìm một câu lạc bộ, đội tình nguyện mà bạn yêu thích và nếu bạn làm việc chăm chỉ, bạn có thể có thể đạt được một vị trí nhất định.\n\n[hust_handbook_2026:p20:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 20]\n38 39\n\nPHÁT TRIỂN KỸ NĂNG MỀM\n\nCHO SINH VIÊN\n\nKHÓA HỌC KỸ NĂNG MỀM CHO SINH VIÊN THAM GIA\n\nCÁC CÔNG TÁC XÃ HỘI\n\nKHÓA HỌC KỸ NĂNG ỨNG TUYỂN CÔNG VIỆC\n\nSinh viên, lực lượng lao động chính trong tương lai sẽ làm việc trong môi trường toàn",
+    "context_ids": [
+      "hust_handbook_2026:p50:paragraph:0001",
+      "hust_handbook_2026:p20:paragraph:0000:token:000"
+    ],
+    "context_chars": 684,
+    "elapsed_ms": 2.4073999375104904,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-01",
+    "split": "test",
+    "question": "Theo lời khuyên ôn thi trong sổ tay, vì sao cần nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Hệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Một tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p41:paragraph:0004 | So tay sinh vien_2026.pdf | page 41]\nHệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+    "context_ids": [
+      "hust_handbook_2026:p41:paragraph:0004",
+      "hust_handbook_2026:p42:paragraph:0000:token:001"
+    ],
+    "context_chars": 689,
+    "elapsed_ms": 379.99030004721135,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-test-02",
+    "split": "test",
+    "question": "Đề cương và đề thi các năm trước được sổ tay cho biết có sẵn ở đâu?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p42:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 42,
+        "text": "82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p2:paragraph:0006:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 2,
+        "text": "10/2026 Tổ chức chuỗi hoạt động kỷ niệm 70 năm thành lập trường (1956–2026), khẳng định chặng đường bảy thập kỷ phát triển và đổi mới sáng tạo.\n\nMùng 1 Tết Mậu Tuất 1958, Bác về thăm Trường ĐHBK Hà Nội lần đầu tiên.\n\nNgày",
+        "metadata": {
+          "section": "gioi_thieu",
+          "parent_chunk_id": "hust_handbook_2026:p2:paragraph:0006",
+          "token_safe_split": true
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p42:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 42]\n82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không\n\n[hust_handbook_2026:p2:paragraph:0006:token:000 | So tay sinh vien_2026.pdf | page 2]\n10/2026 Tổ chức chuỗi hoạt động kỷ niệm 70 năm thành lập trường (1956–2026), khẳng định chặng đường bảy thập kỷ phát triển và đổi mới sáng tạo.\n\nMùng 1 Tết Mậu Tuất 1958, Bác về thăm Trường ĐHBK Hà Nội lần đầu tiên.\n\nNgày",
+    "context_ids": [
+      "hust_handbook_2026:p42:paragraph:0000:token:000",
+      "hust_handbook_2026:p2:paragraph:0006:token:000"
+    ],
+    "context_chars": 624,
+    "elapsed_ms": 66.56619999557734,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-03",
+    "split": "test",
+    "question": "Sổ tay cho rằng học với bạn cùng lứa có thể giúp việc tiếp cận kiến thức như thế nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p52:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 52,
+        "text": "Gia sư: là công việc làm thêm phổ biến nhất của các bạn sinh viên. Công việc này vừa giúp bạn ôn lại kiến thức, vừa nâng cao khả năng giảng dạy cũng như kỹ năng giao tiếp, khả năng truyền đạt của các bạn. Đây là công việc dễ dàng và có được thu",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p52:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.030621785881252923,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p41:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 41,
+        "text": "Một tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.030309988518943745,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p52:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 52]\nGia sư: là công việc làm thêm phổ biến nhất của các bạn sinh viên. Công việc này vừa giúp bạn ôn lại kiến thức, vừa nâng cao khả năng giảng dạy cũng như kỹ năng giao tiếp, khả năng truyền đạt của các bạn. Đây là công việc dễ dàng và có được thu\n\n[hust_handbook_2026:p41:paragraph:0005 | So tay sinh vien_2026.pdf | page 41]\nMột tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM",
+    "context_ids": [
+      "hust_handbook_2026:p52:paragraph:0002:token:000",
+      "hust_handbook_2026:p41:paragraph:0005"
+    ],
+    "context_chars": 787,
+    "elapsed_ms": 59.349199989810586,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-test-04",
+    "split": "test",
+    "question": "Theo con số được sổ tay dẫn lại, tỷ lệ thành công gắn với kiến thức chuyên môn và kỹ năng mềm lần lượt là bao nhiêu?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p44:paragraph:0002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 44,
+        "text": "Thực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "nhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "HỌC Các chương trình đào tạo kỹ sư sẽ được xây dựng theo hướng chuyên sâu nghề nghiệp với chuẩn chương trình về đầu vào, đầu ra và khối lượng kiến thức và đạt bậc 7 theo khung trình độ quốc gia. Với khối lượng kiến thức toàn khoá tối thiểu là 180 tín chỉ và chất lượng đào tạo được chuẩn hoá, người tốt nghiệp có thể học chuyển đổi kiến thức qua lại giữa văn bằng kỹ sư và thạc sĩ. Theo đó, nếu sinh viên học chương trình 4 năm sẽ nhận được bằng tốt nghiệp cử nhân; sau đó nếu học tiếp 1,5 năm theo",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.030309988518943745,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p44:paragraph:0002 | So tay sinh vien_2026.pdf | page 44]\nThực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87\n\n[hust_handbook_2026:p20:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 20]\nnhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+    "context_ids": [
+      "hust_handbook_2026:p44:paragraph:0002",
+      "hust_handbook_2026:p20:paragraph:0001:token:001"
+    ],
+    "context_chars": 779,
+    "elapsed_ms": 58.758200029842556,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-test-05",
+    "split": "test",
+    "question": "Nêu ba kỹ năng mà sinh viên có thể học được khi tham gia điều hành một tổ chức sinh viên.",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "nhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.0315136476426799,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Hàng kỳ, nhà trường tổ chức các khóa học kỹ năng mềm, kỹ năng nghề nghiệp, các buổi tọa đàm, hội thảo giúp sinh viên nâng cao kỹ năng mềm với sự tham gia của các giảng viên, các chuyên gia, nhà tuyển dụng đến từ doanh nghiệp và các đối tác khác của",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p19:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 19,
+        "text": "Nhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.030886196246139225,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 20]\nnhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.\n\n[hust_handbook_2026:p20:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 20]\nHàng kỳ, nhà trường tổ chức các khóa học kỹ năng mềm, kỹ năng nghề nghiệp, các buổi tọa đàm, hội thảo giúp sinh viên nâng cao kỹ năng mềm với sự tham gia của các giảng viên, các chuyên gia, nhà tuyển dụng đến từ doanh nghiệp và các đối tác khác của",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0001:token:001",
+      "hust_handbook_2026:p20:paragraph:0001:token:000"
+    ],
+    "context_chars": 674,
+    "elapsed_ms": 58.04939998779446,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

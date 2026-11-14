@@ -1,0 +1,44 @@
+[
+  {
+    "method": "dense_day6",
+    "split": "test",
+    "n": 5,
+    "hit1": 2,
+    "hit3": 2,
+    "context_hit": 2,
+    "avg_context_chars": 702.6,
+    "median_ms": 55.79240003135055,
+    "service_cost_usd": 0,
+    "candidate_k": 10,
+    "day6_strategy": "B",
+    "rrf_k": 60
+  },
+  {
+    "method": "tfidf",
+    "split": "test",
+    "n": 5,
+    "hit1": 4,
+    "hit3": 4,
+    "context_hit": 4,
+    "avg_context_chars": 614.6,
+    "median_ms": 2.9151999624446034,
+    "service_cost_usd": 0,
+    "candidate_k": 10,
+    "day6_strategy": "B",
+    "rrf_k": 60
+  },
+  {
+    "method": "hybrid_rrf",
+    "split": "test",
+    "n": 5,
+    "hit1": 2,
+    "hit3": 3,
+    "context_hit": 2,
+    "avg_context_chars": 710.6,
+    "median_ms": 59.349199989810586,
+    "service_cost_usd": 0,
+    "candidate_k": 10,
+    "day6_strategy": "B",
+    "rrf_k": 60
+  }
+]

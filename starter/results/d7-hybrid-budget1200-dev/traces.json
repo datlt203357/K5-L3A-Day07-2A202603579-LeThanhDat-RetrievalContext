@@ -1,0 +1,2993 @@
+[
+  {
+    "query_id": "d7-dev-01",
+    "split": "dev",
+    "question": "Theo sổ tay, mức điểm rèn luyện nào được xếp loại xuất sắc?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p10:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "báo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng.\n\nKết quả rèn luyện được phân loại như sau:\n\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n\n- Từ 80 điểm đến 89 điểm: loại tốt;\n\n- Từ 70 điểm đến 79 điểm: loại khá;",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p10:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.7502947077242946,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p11:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 11,
+        "text": "khóa đào tạo kỹ năng nghề nghiệp, kỹ năng bổ trợ chuyên môn MC 6 2.1.6 Chủ động xây dựng, hoàn thiện và cập nhật Portfolio cá nhân theo từng học kỳ. MC 3 2 Trách nhiệm và tinh thần tham gia các kỳ thi, cuộc thi (tối đa 12 điểm) 2.2.1 Tham gia công bố",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p11:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.6514904097166783,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p7:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.6162126247946212,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p10:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 10]\nbáo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng.\n\nKết quả rèn luyện được phân loại như sau:\n\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n\n- Từ 80 điểm đến 89 điểm: loại tốt;\n\n- Từ 70 điểm đến 79 điểm: loại khá;\n\n[hust_handbook_2026:p11:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 11]\nkhóa đào tạo kỹ năng nghề nghiệp, kỹ năng bổ trợ chuyên môn MC 6 2.1.6 Chủ động xây dựng, hoàn thiện và cập nhật Portfolio cá nhân theo từng học kỳ. MC 3 2 Trách nhiệm và tinh thần tham gia các kỳ thi, cuộc thi (tối đa 12 điểm) 2.2.1 Tham gia công bố\n\n[hust_handbook_2026:p7:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 7]\n12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun",
+    "context_ids": [
+      "hust_handbook_2026:p10:paragraph:0002:token:001",
+      "hust_handbook_2026:p11:paragraph:0002:token:001",
+      "hust_handbook_2026:p7:paragraph:0000:token:000"
+    ],
+    "context_chars": 975,
+    "elapsed_ms": 260.56720002088696,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-02",
+    "split": "dev",
+    "question": "Chương trình ATM quà hướng đến những mục đích nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "món đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.7639802834999406,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Chương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.7514687776565552,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "đồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.6335285902023315,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0004 | So tay sinh vien_2026.pdf | page 20]\nmón đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.\n\n[hust_handbook_2026:p20:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 20]\nChương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món\n\n[hust_handbook_2026:p20:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 20]\nđồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0004",
+      "hust_handbook_2026:p20:paragraph:0003:token:000",
+      "hust_handbook_2026:p20:paragraph:0003:token:001"
+    ],
+    "context_chars": 951,
+    "elapsed_ms": 72.01769994571805,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-03",
+    "split": "dev",
+    "question": "Sinh viên có thể làm gì trên chương trình ATM quà?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Chương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.6926002502441406,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "món đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.6504580586875653,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "đồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.6098920702934265,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 20]\nChương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món\n\n[hust_handbook_2026:p20:paragraph:0004 | So tay sinh vien_2026.pdf | page 20]\nmón đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.\n\n[hust_handbook_2026:p20:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 20]\nđồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0003:token:000",
+      "hust_handbook_2026:p20:paragraph:0004",
+      "hust_handbook_2026:p20:paragraph:0003:token:001"
+    ],
+    "context_chars": 951,
+    "elapsed_ms": 84.6095000160858,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-04",
+    "split": "dev",
+    "question": "Tổ Tư vấn và Hỗ trợ Sinh viên tiếp sinh viên trực tiếp ở địa chỉ nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0006:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "hội… cho sinh viên.\n\nSỨ MỆNH\n\n- Tổ tư vấn và hỗ trợ sinh viên là một bộ phận của Ban Công tác sinh viên (tiền thân là Tổ tư vấn tâm lý sinh viên được thành lập vào ngày 26/3/2019 theo QĐ số 642A/QĐ-ĐHBK- CTSV của Hiệu trưởng ký ngày 19/3/2019).",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0006",
+          "token_safe_split": true
+        },
+        "score": 0.7619642019271851,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "GIỚI THIỆU VIỆC LÀM THÊM, GIA SƯ CHO SINH VIÊN\n\nĐăng ký tìm gia sư - dạy kèm\n\nTỔ TƯ VẤN & HỖ TRỢ\n\nSINH VIÊN\n\nĐến với Tổ tư vấn và hỗ trợ sinh viên, các bạn sẽ được bày tỏ, chia sẻ những",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.7428915653889452,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "Hãy cùng Nhà trường chung tay xây dựng và phát triển “Điểm tựa yêu thương” thành một địa chỉ tư vấn tin cậy, an toàn, thân thiện với sinh viên.\n\nBạn có thể:\n\n- Tham gia CLB hỗ trợ học tập sinh viên;\n\n- Tham gia đội cộng tác viên hỗ trợ tổ chức các hoạt động.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.6839705109596252,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p21:paragraph:0006:token:001 | So tay sinh vien_2026.pdf | page 21]\nhội… cho sinh viên.\n\nSỨ MỆNH\n\n- Tổ tư vấn và hỗ trợ sinh viên là một bộ phận của Ban Công tác sinh viên (tiền thân là Tổ tư vấn tâm lý sinh viên được thành lập vào ngày 26/3/2019 theo QĐ số 642A/QĐ-ĐHBK- CTSV của Hiệu trưởng ký ngày 19/3/2019).\n\n[hust_handbook_2026:p21:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 21]\nGIỚI THIỆU VIỆC LÀM THÊM, GIA SƯ CHO SINH VIÊN\n\nĐăng ký tìm gia sư - dạy kèm\n\nTỔ TƯ VẤN & HỖ TRỢ\n\nSINH VIÊN\n\nĐến với Tổ tư vấn và hỗ trợ sinh viên, các bạn sẽ được bày tỏ, chia sẻ những\n\n[hust_handbook_2026:p21:paragraph:0004 | So tay sinh vien_2026.pdf | page 21]\nHãy cùng Nhà trường chung tay xây dựng và phát triển “Điểm tựa yêu thương” thành một địa chỉ tư vấn tin cậy, an toàn, thân thiện với sinh viên.\n\nBạn có thể:\n\n- Tham gia CLB hỗ trợ học tập sinh viên;\n\n- Tham gia đội cộng tác viên hỗ trợ tổ chức các hoạt động.",
+    "context_ids": [
+      "hust_handbook_2026:p21:paragraph:0006:token:001",
+      "hust_handbook_2026:p21:paragraph:0003:token:000",
+      "hust_handbook_2026:p21:paragraph:0004"
+    ],
+    "context_chars": 945,
+    "elapsed_ms": 80.68349992390722,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-05",
+    "split": "dev",
+    "question": "HUST triển khai web và app eHUST từ năm học nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p33:paragraph:0004:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 33,
+        "text": "nghệ giáo dục tại Việt Nam. Bắt đầu từ K70, chương trình sẽ bao gồm hai định hướng: Công nghệ và Đào tạo và Multimedia trong giáo dục và truyền thông.\n\nTới nay, Khoa KH&CN Giáo dục đã đào tạo gần 1.000 cử nhân Sư phạm kỹ thuật và",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p33:paragraph:0004",
+          "token_safe_split": true
+        },
+        "score": 0.5172415971755981,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p7:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.5093592405319214,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p33:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 33,
+        "text": "Viện Sư phạm Kỹ thuật, đã khẳng định vị thế trong hệ thống các cơ sở giáo dục đại học trên cả nước về các chuyên ngành: Sư phạm kỹ thuật, Công nghệ giáo dục và quản lý giáo dục. Năm 2019, Khoa KH&CN Giáo dục là đơn vị tiên phong trong việc mở ngành Công",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p33:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.5060440603520915,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p33:paragraph:0004:token:000 | So tay sinh vien_2026.pdf | page 33]\nnghệ giáo dục tại Việt Nam. Bắt đầu từ K70, chương trình sẽ bao gồm hai định hướng: Công nghệ và Đào tạo và Multimedia trong giáo dục và truyền thông.\n\nTới nay, Khoa KH&CN Giáo dục đã đào tạo gần 1.000 cử nhân Sư phạm kỹ thuật và\n\n[hust_handbook_2026:p7:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 7]\n12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun\n\n[hust_handbook_2026:p33:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 33]\nViện Sư phạm Kỹ thuật, đã khẳng định vị thế trong hệ thống các cơ sở giáo dục đại học trên cả nước về các chuyên ngành: Sư phạm kỹ thuật, Công nghệ giáo dục và quản lý giáo dục. Năm 2019, Khoa KH&CN Giáo dục là đơn vị tiên phong trong việc mở ngành Công",
+    "context_ids": [
+      "hust_handbook_2026:p33:paragraph:0004:token:000",
+      "hust_handbook_2026:p7:paragraph:0000:token:000",
+      "hust_handbook_2026:p33:paragraph:0003:token:001"
+    ],
+    "context_chars": 964,
+    "elapsed_ms": 82.88230001926422,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-06",
+    "split": "dev",
+    "question": "Ứng dụng eHUST có thể nhắc sinh viên những thông tin gì?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p8:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 8,
+        "text": "Các thông tin chi tiết: Khối học phần đại cương/cơ sở ngành bắt buộc/tự chọn/ bổ trợ...., điều kiện học tích hợp lên các bậc cao hơn..., điều kiện mỗi học phần và cách đánh giá, các chứng chỉ cần hoàn thành.\n\nMục tiêu học tập Các nguồn lực và điều kiện của bản thân Tối ưu thời gian hoàn thành chương trình học tập Học phần học trước, song hành, tiên quyết Cần lưu ý tới các học phần chỉ mở 1 lần/1 năm\n\nĐĂNG KÝ HỌC PHẦN",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "manual_corrections": [
+            "Đối chiếu trực quan trang PDF: cụm đúng là 'Đánh giá tiến độ'."
+          ]
+        },
+        "score": 0.6863106524307703,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p10:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "1. Công bố hoạt động: Các đơn vị công khai kế hoạch hoạt động trên Cổng thông tin sinh viên hoặc các kênh thông tin chính thống để sinh viên đăng ký tham gia.\n\n2. Tham gia và cung cấp minh chứng: Sinh viên đăng ký hoạt động theo nguyện vọng, cung cấp minh chứng tham gia trên hệ thống đánh giá điểm rèn luyện và được cán bộ phụ trách xác nhận.\n\n3. Tự đánh giá: Sinh viên thực hiện tự đánh giá kết quả rèn luyện theo kế hoạch của Đại học.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.6741001612633638,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "Ứng dụng eHust cung cấp các chức năng cho cả sinh viên, giảng viên, cán bộ toàn trường. Với ứng dụng này, bạn sẽ có khả năng truy cập và khai thác các thông tin của trường một cách nhanh chóng, dễ dàng và hiệu quả:\n\n- Các thông tin về lớp học, thời khoá biểu\n\n- Tra cứu thông tin giáo viên, sinh viên, học phần, lớp học, lớp sinh viên, …\n\n- Nhắc lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.6675252319149907,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p8:paragraph:0003 | So tay sinh vien_2026.pdf | page 8]\nCác thông tin chi tiết: Khối học phần đại cương/cơ sở ngành bắt buộc/tự chọn/ bổ trợ...., điều kiện học tích hợp lên các bậc cao hơn..., điều kiện mỗi học phần và cách đánh giá, các chứng chỉ cần hoàn thành.\n\nMục tiêu học tập Các nguồn lực và điều kiện của bản thân Tối ưu thời gian hoàn thành chương trình học tập Học phần học trước, song hành, tiên quyết Cần lưu ý tới các học phần chỉ mở 1 lần/1 năm\n\nĐĂNG KÝ HỌC PHẦN\n\n[hust_handbook_2026:p10:paragraph:0003 | So tay sinh vien_2026.pdf | page 10]\n1. Công bố hoạt động: Các đơn vị công khai kế hoạch hoạt động trên Cổng thông tin sinh viên hoặc các kênh thông tin chính thống để sinh viên đăng ký tham gia.\n\n2. Tham gia và cung cấp minh chứng: Sinh viên đăng ký hoạt động theo nguyện vọng, cung cấp minh chứng tham gia trên hệ thống đánh giá điểm rèn luyện và được cán bộ phụ trách xác nhận.\n\n3. Tự đánh giá: Sinh viên thực hiện tự đánh giá kết quả rèn luyện theo kế hoạch của Đại học.",
+    "context_ids": [
+      "hust_handbook_2026:p8:paragraph:0003",
+      "hust_handbook_2026:p10:paragraph:0003"
+    ],
+    "context_chars": 1013,
+    "elapsed_ms": 81.74030005466193,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-07",
+    "split": "dev",
+    "question": "Hệ thống sổ tay sinh viên trực tuyến hỗ trợ công việc gì?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.841211692203137,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p23:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.7424831611658088,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p19:paragraph:0004:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 19,
+        "text": "Nhà trường đã xây dựng Cổng thông tin việc làm trực tuyến (work.hust.edu.vn) để tạo điều kiện để sinh viên tìm kiếm các thông tin hướng nghiệp và việc làm, đồng thời tạo điều kiện cho các Doanh nghiệp tìm kiếm các ứng viên phù hợp với vị trí tuyển",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p19:paragraph:0004",
+          "token_safe_split": true
+        },
+        "score": 0.6624883212142182,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;\n\n[hust_handbook_2026:p23:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 23]\nchung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.\n\n[hust_handbook_2026:p19:paragraph:0004:token:000 | So tay sinh vien_2026.pdf | page 19]\nNhà trường đã xây dựng Cổng thông tin việc làm trực tuyến (work.hust.edu.vn) để tạo điều kiện để sinh viên tìm kiếm các thông tin hướng nghiệp và việc làm, đồng thời tạo điều kiện cho các Doanh nghiệp tìm kiếm các ứng viên phù hợp với vị trí tuyển",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0003",
+      "hust_handbook_2026:p23:paragraph:0001:token:001",
+      "hust_handbook_2026:p19:paragraph:0004:token:000"
+    ],
+    "context_chars": 1195,
+    "elapsed_ms": 92.61459996923804,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-08",
+    "split": "dev",
+    "question": "Sinh viên được cấp loại tài khoản nào để truy cập cổng thông tin và đăng ký học phần?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p23:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.8083285803599026,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p14:paragraph:0006:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 14,
+        "text": "số 29/2025/QĐ-TTg của Thủ tướng Chính phủ).\n\nCÁCH THỨC ĐĂNG KÝ CẤP GIẤY VAY VỐN:\n\nSinh viên đăng nhập vào tài khoản cá nhân trên hệ thống cổng thông tin sinh viên eHUST hoặc sổ tay CTSV online để đăng ký nhận giấy vay vốn.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p14:paragraph:0006",
+          "token_safe_split": true
+        },
+        "score": 0.7367876924998956,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.6445131301879928,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 23]\nchung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.\n\n[hust_handbook_2026:p14:paragraph:0006:token:001 | So tay sinh vien_2026.pdf | page 14]\nsố 29/2025/QĐ-TTg của Thủ tướng Chính phủ).\n\nCÁCH THỨC ĐĂNG KÝ CẤP GIẤY VAY VỐN:\n\nSinh viên đăng nhập vào tài khoản cá nhân trên hệ thống cổng thông tin sinh viên eHUST hoặc sổ tay CTSV online để đăng ký nhận giấy vay vốn.\n\n[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0001:token:001",
+      "hust_handbook_2026:p14:paragraph:0006:token:001",
+      "hust_handbook_2026:p23:paragraph:0003"
+    ],
+    "context_chars": 1170,
+    "elapsed_ms": 87.9035999532789,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-09",
+    "split": "dev",
+    "question": "Đảng ủy Khối các trường ĐH, CĐ Hà Nội nhận hồ sơ chuyển sinh hoạt Đảng vào những buổi nào và trong khung giờ nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p25:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 25,
+        "text": "Đảng viên nhận hồ sơ Đảng viên từ Đảng ủy phường (xã) nơi cư trú hoặc làm việc, chuyển về Đảng ủy khối các trường ĐH-CĐ Hà Nội tại số 1 Trần Phú, P. Văn Quán, Q.Hà Đông, Tp. Hà Nội (nhà 2C).\n\n03\n\nBƯỚC\n\nĐảng viên nhận lại",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p25:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.7814770471169339,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0006",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Đảng viên nhận hồ sơ đảng viên từ Huyện ủy và chuyển lên Đảng ủy Khối các trường ĐH – CĐ Hà Nội và làm theo hướng dẫn của cán bộ Ban Tổ chức Đảng ủy Khối.\n\n05 06 07 08 Đảng viên nhận lại hồ sơ đảng viên từ Đảng ủy Khối và gửi về Văn phòng Đảng ủy Đại học Bách Khoa Hà Nội sau đó làm theo hướng dẫn của cán bộ Văn phòng Đảng ủy.\n\nSau khi Văn phòng Đảng ủy kiểm tra, đảng viên được viết giấy giới thiệu về sinh hoạt tại các chi bộ sinh viên tương ứng.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.7771072983741816,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p25:paragraph:0002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 25,
+        "text": "- Tiếp nhận và giới thiệu sinh hoạt của các đối tượng Đảng;\n\n- Chuyển sinh hoạt đảng cho sinh viên sau khi tốt nghiệp về địa phương hoặc cơ quan công tác.\n\nLưu ý: Lịch chuyển sinh hoạt đảng tại Đảng ủy Khối các trường ĐH, CĐ Hà Nội. Các buổi sáng Thứ Ba, Thứ Tư và Thứ Năm hàng tuần, từ 8 giờ 30 đến 11 giờ 00.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.715891718864446,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p25:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 25]\nĐảng viên nhận hồ sơ Đảng viên từ Đảng ủy phường (xã) nơi cư trú hoặc làm việc, chuyển về Đảng ủy khối các trường ĐH-CĐ Hà Nội tại số 1 Trần Phú, P. Văn Quán, Q.Hà Đông, Tp. Hà Nội (nhà 2C).\n\n03\n\nBƯỚC\n\nĐảng viên nhận lại\n\n[hust_handbook_2026:p26:paragraph:0006 | So tay sinh vien_2026.pdf | page 26]\nĐảng viên nhận hồ sơ đảng viên từ Huyện ủy và chuyển lên Đảng ủy Khối các trường ĐH – CĐ Hà Nội và làm theo hướng dẫn của cán bộ Ban Tổ chức Đảng ủy Khối.\n\n05 06 07 08 Đảng viên nhận lại hồ sơ đảng viên từ Đảng ủy Khối và gửi về Văn phòng Đảng ủy Đại học Bách Khoa Hà Nội sau đó làm theo hướng dẫn của cán bộ Văn phòng Đảng ủy.\n\nSau khi Văn phòng Đảng ủy kiểm tra, đảng viên được viết giấy giới thiệu về sinh hoạt tại các chi bộ sinh viên tương ứng.",
+    "context_ids": [
+      "hust_handbook_2026:p25:paragraph:0001:token:000",
+      "hust_handbook_2026:p26:paragraph:0006"
+    ],
+    "context_chars": 837,
+    "elapsed_ms": 75.92400000430644,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-10",
+    "split": "dev",
+    "question": "Chi bộ sinh viên họp chính trị định kỳ với tần suất thế nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Mỗi Chi bộ sẽ chịu sự quản lý của đội ngũ Chi ủy. Cơ cấu tổ chức của Chi ủy Chi bộ sinh viên gồm 1 Bí thư (là cán bộ), 1 Phó bí thư và có 1 đến 3 Chi uỷ viên. Chi bộ Sinh viên có hai mảng hoạt động chính đó là Hoạt động chính trị và hoạt động ngoại khoá chuyên đề. Trong đó: Hoạt động chính trị: Chi bộ sinh viên họp định kỳ mỗi tháng một lần và phụ trách trực tiếp những công tác liên quan đến Phát triển Đảng và chuyển Đảng chính thức của sinh viên.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.7010162263805827,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Hoạt động ngoại khoá chuyên đề: Bên cạnh các hoạt động chính trị kể trên, Chi bộ sinh viên còn có các hoạt động ngoại khóa chuyên đề mang đậm màu sắc của đảng viên là sinh viên.\n\nHiện nay, Đảng bộ Đại học Bách Khoa có 8 chi bộ sinh viên: Để trở thành đảng viên tại Đại học Bách Khoa Hà Nội, bạn cần phải phấn đấu để có thành tích học tập, rèn luyện tốt và được tín nhiệm giới thiệu của các tổ chức Đoàn – Hội, CLB/Tổ/Đội/Nhóm sinh viên.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.6330265968763769,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0008:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Quy trình chuyển sinh hoạt từ địa phương đến Đảng bộ Đại học Bách khoa Hà Nội đối với sinh viên là đảng viên (chính thức hoặc dự bị), gồm các bước sau: Sau đó, Đảng viên tham gia sinh hoạt tại chi bộ tại chi bộ sinh",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p26:paragraph:0008",
+          "token_safe_split": true
+        },
+        "score": 0.6221029347808046,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p26:paragraph:0003 | So tay sinh vien_2026.pdf | page 26]\nMỗi Chi bộ sẽ chịu sự quản lý của đội ngũ Chi ủy. Cơ cấu tổ chức của Chi ủy Chi bộ sinh viên gồm 1 Bí thư (là cán bộ), 1 Phó bí thư và có 1 đến 3 Chi uỷ viên. Chi bộ Sinh viên có hai mảng hoạt động chính đó là Hoạt động chính trị và hoạt động ngoại khoá chuyên đề. Trong đó: Hoạt động chính trị: Chi bộ sinh viên họp định kỳ mỗi tháng một lần và phụ trách trực tiếp những công tác liên quan đến Phát triển Đảng và chuyển Đảng chính thức của sinh viên.\n\n[hust_handbook_2026:p26:paragraph:0004 | So tay sinh vien_2026.pdf | page 26]\nHoạt động ngoại khoá chuyên đề: Bên cạnh các hoạt động chính trị kể trên, Chi bộ sinh viên còn có các hoạt động ngoại khóa chuyên đề mang đậm màu sắc của đảng viên là sinh viên.\n\nHiện nay, Đảng bộ Đại học Bách Khoa có 8 chi bộ sinh viên: Để trở thành đảng viên tại Đại học Bách Khoa Hà Nội, bạn cần phải phấn đấu để có thành tích học tập, rèn luyện tốt và được tín nhiệm giới thiệu của các tổ chức Đoàn – Hội, CLB/Tổ/Đội/Nhóm sinh viên.",
+    "context_ids": [
+      "hust_handbook_2026:p26:paragraph:0003",
+      "hust_handbook_2026:p26:paragraph:0004"
+    ],
+    "context_chars": 1045,
+    "elapsed_ms": 75.89029998052865,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-11",
+    "split": "dev",
+    "question": "Hội Sinh viên đại diện cho nhóm nào trong trường?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.6919533793954039,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "đến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.6868116464260714,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "Tổ chức các hoạt động hướng đến Sinh viên, hướng đến cộng đồng thông qua các chương trình văn hóa văn nghệ, thể dục thể thao, triển khai phong trào Sinh viên 5 tốt tới toàn thể sinh viên trong trường.\n\n53\n\nHỘI SINH VIÊN",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.6834349036216736,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p27:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 27]\n024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan\n\n[hust_handbook_2026:p27:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 27]\nđến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).\n\n[hust_handbook_2026:p27:paragraph:0003 | So tay sinh vien_2026.pdf | page 27]\nTổ chức các hoạt động hướng đến Sinh viên, hướng đến cộng đồng thông qua các chương trình văn hóa văn nghệ, thể dục thể thao, triển khai phong trào Sinh viên 5 tốt tới toàn thể sinh viên trong trường.\n\n53\n\nHỘI SINH VIÊN",
+    "context_ids": [
+      "hust_handbook_2026:p27:paragraph:0002:token:000",
+      "hust_handbook_2026:p27:paragraph:0002:token:001",
+      "hust_handbook_2026:p27:paragraph:0003"
+    ],
+    "context_chars": 909,
+    "elapsed_ms": 74.32140002492815,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-12",
+    "split": "dev",
+    "question": "Sổ tay mô tả nhiệm vụ chính của Ban Công tác Sinh viên đối với người học là gì?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p17:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 17,
+        "text": "Hết thời gian đăng ký, Ban Công tác sinh viên tổng hợp danh sách và báo cáo Hội đồng xét, cấp học bổng trao đổi sinh viên để họp xét.\n\nBan Công tác sinh viên làm hồ sơ báo cáo Giám đốc đại học ra quyết định cấp học bổng cho sinh viên.\n\nMỤC ĐÍCH CỦA HỌC BỔNG\n\nThực hiện trách nhiệm của ĐHBK Hà Nội đối với xã hội trong công tác đào tạo nguồn nhân lực chất lượng cao phục vụ cho quá trình công nghiệp hóa, hiện đại hóa đất nước.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.7586706589067768,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p28:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 28,
+        "text": "BAN - TRUNG TÂM\n\nBAN - TRUNG TÂM\n\nPHẦN 3\n\n54 55 Quản lý, tư vấn và hỗ trợ người học; tạo điều kiện, hỗ trợ người học, đặc biệt người học yếu thế (người học có hoàn cảnh khó khăn hoặc có hoàn cảnh đặc biệt) phát huy tối đa năng lực và",
+        "metadata": {
+          "section": "ban_trung_tam",
+          "parent_chunk_id": "hust_handbook_2026:p28:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.7033611182404897,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "38 39\n\nPHÁT TRIỂN KỸ NĂNG MỀM\n\nCHO SINH VIÊN\n\nKHÓA HỌC KỸ NĂNG MỀM CHO SINH VIÊN THAM GIA\n\nCÁC CÔNG TÁC XÃ HỘI\n\nKHÓA HỌC KỸ NĂNG ỨNG TUYỂN CÔNG VIỆC\n\nSinh viên, lực lượng lao động chính trong tương lai sẽ làm việc trong môi trường toàn",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.6792335915108688,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p17:paragraph:0005 | So tay sinh vien_2026.pdf | page 17]\nHết thời gian đăng ký, Ban Công tác sinh viên tổng hợp danh sách và báo cáo Hội đồng xét, cấp học bổng trao đổi sinh viên để họp xét.\n\nBan Công tác sinh viên làm hồ sơ báo cáo Giám đốc đại học ra quyết định cấp học bổng cho sinh viên.\n\nMỤC ĐÍCH CỦA HỌC BỔNG\n\nThực hiện trách nhiệm của ĐHBK Hà Nội đối với xã hội trong công tác đào tạo nguồn nhân lực chất lượng cao phục vụ cho quá trình công nghiệp hóa, hiện đại hóa đất nước.\n\n[hust_handbook_2026:p28:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 28]\nBAN - TRUNG TÂM\n\nBAN - TRUNG TÂM\n\nPHẦN 3\n\n54 55 Quản lý, tư vấn và hỗ trợ người học; tạo điều kiện, hỗ trợ người học, đặc biệt người học yếu thế (người học có hoàn cảnh khó khăn hoặc có hoàn cảnh đặc biệt) phát huy tối đa năng lực và\n\n[hust_handbook_2026:p20:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 20]\n38 39\n\nPHÁT TRIỂN KỸ NĂNG MỀM\n\nCHO SINH VIÊN\n\nKHÓA HỌC KỸ NĂNG MỀM CHO SINH VIÊN THAM GIA\n\nCÁC CÔNG TÁC XÃ HỘI\n\nKHÓA HỌC KỸ NĂNG ỨNG TUYỂN CÔNG VIỆC\n\nSinh viên, lực lượng lao động chính trong tương lai sẽ làm việc trong môi trường toàn",
+    "context_ids": [
+      "hust_handbook_2026:p17:paragraph:0005",
+      "hust_handbook_2026:p28:paragraph:0000:token:000",
+      "hust_handbook_2026:p20:paragraph:0000:token:000"
+    ],
+    "context_chars": 1152,
+    "elapsed_ms": 71.01780001539737,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-13",
+    "split": "dev",
+    "question": "Văn phòng Quản lý ký túc xá được ghi ở địa chỉ nào?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0009:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Địa chỉ làm việc và thông tin liên hệ: Phòng chuyển sinh hoạt đảng tại Đảng ủy Khối các trường ĐH, CĐ Hà Nội Lịch làm việc: Giờ hành chính Địa chỉ: Phòng 106 nhà 2C – Trụ sở Thành ủy Hà Nội, số 219 Trần Phú, quận Hà Đông,",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p26:paragraph:0009",
+          "token_safe_split": true
+        },
+        "score": 0.6603378844663971,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0010",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Địa chỉ: Phòng 203 – C2, Đại học Bách khoa Hà Nội Số điện thoại: 024.3869 2743",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.6070389875220056,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p46:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 46,
+        "text": "90 Ở trọ\n\nKHÔNG CÒN\n\nLÀ NỖI LO\n\n91\n\nKÝ TÚC XÁ\n\nBÁCH KHOA\n\nKý túc xá Bách Khoa hiện nay đang áp dụng Hệ thống Ký túc xá trực tuyến CSAM- HUST hiện đại để tạo thuận lợi cho sinh viên trong quá trình lưu trú:\n\n- Đăng",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p46:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.6063387574654514,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p26:paragraph:0009:token:000 | So tay sinh vien_2026.pdf | page 26]\nĐịa chỉ làm việc và thông tin liên hệ: Phòng chuyển sinh hoạt đảng tại Đảng ủy Khối các trường ĐH, CĐ Hà Nội Lịch làm việc: Giờ hành chính Địa chỉ: Phòng 106 nhà 2C – Trụ sở Thành ủy Hà Nội, số 219 Trần Phú, quận Hà Đông,\n\n[hust_handbook_2026:p26:paragraph:0010 | So tay sinh vien_2026.pdf | page 26]\nĐịa chỉ: Phòng 203 – C2, Đại học Bách khoa Hà Nội Số điện thoại: 024.3869 2743\n\n[hust_handbook_2026:p46:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 46]\n90 Ở trọ\n\nKHÔNG CÒN\n\nLÀ NỖI LO\n\n91\n\nKÝ TÚC XÁ\n\nBÁCH KHOA\n\nKý túc xá Bách Khoa hiện nay đang áp dụng Hệ thống Ký túc xá trực tuyến CSAM- HUST hiện đại để tạo thuận lợi cho sinh viên trong quá trình lưu trú:\n\n- Đăng",
+    "context_ids": [
+      "hust_handbook_2026:p26:paragraph:0009:token:000",
+      "hust_handbook_2026:p26:paragraph:0010",
+      "hust_handbook_2026:p46:paragraph:0000:token:000"
+    ],
+    "context_chars": 770,
+    "elapsed_ms": 61.245699995197356,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-14",
+    "split": "dev",
+    "question": "Trường Cơ khí có bao nhiêu chương trình đào tạo theo sổ tay?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p7:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.642816982101383,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "60\n\nTRƯỜNG\n\nĐIỆN - ĐIỆN TỬ\n\nSCHOOL OF ELECTRICAL AND ELECTRONICS ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nBao gồm 4 khoa, 1 trung tâm đào tạo thực hành & 1 viện nghiên cứu.\n\n235 CB giảng viên, trong đó có 3 Giáo sư, 52 Phó giáo sư, 106 Tiến sĩ. Hầu hết là các giảng viên được đào tạo bài bản tại các nước tiên tiến trên thế giới.",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.637219391034879,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p30:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 30,
+        "text": "Đội ngũ cán bộ, giảng viên có 300 người.\n\nTrường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT).",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.631034575043049,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p7:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 7]\n12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun\n\n[hust_handbook_2026:p31:paragraph:0000 | So tay sinh vien_2026.pdf | page 31]\n60\n\nTRƯỜNG\n\nĐIỆN - ĐIỆN TỬ\n\nSCHOOL OF ELECTRICAL AND ELECTRONICS ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nBao gồm 4 khoa, 1 trung tâm đào tạo thực hành & 1 viện nghiên cứu.\n\n235 CB giảng viên, trong đó có 3 Giáo sư, 52 Phó giáo sư, 106 Tiến sĩ. Hầu hết là các giảng viên được đào tạo bài bản tại các nước tiên tiến trên thế giới.\n\n[hust_handbook_2026:p30:paragraph:0001 | So tay sinh vien_2026.pdf | page 30]\nĐội ngũ cán bộ, giảng viên có 300 người.\n\nTrường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT).",
+    "context_ids": [
+      "hust_handbook_2026:p7:paragraph:0000:token:000",
+      "hust_handbook_2026:p31:paragraph:0000",
+      "hust_handbook_2026:p30:paragraph:0001"
+    ],
+    "context_chars": 944,
+    "elapsed_ms": 66.4976000552997,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-15",
+    "split": "dev",
+    "question": "Trường Điện – Điện tử gồm những đơn vị đào tạo và nghiên cứu nào theo phần giới thiệu?",
+    "method": "dense_day6",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p33:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 33,
+        "text": "Viện Sư phạm Kỹ thuật, đã khẳng định vị thế trong hệ thống các cơ sở giáo dục đại học trên cả nước về các chuyên ngành: Sư phạm kỹ thuật, Công nghệ giáo dục và quản lý giáo dục. Năm 2019, Khoa KH&CN Giáo dục là đơn vị tiên phong trong việc mở ngành Công",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p33:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.7074530124664357,
+        "strategy": "dense_day6_B",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "trong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p31:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.7070738847807727,
+        "strategy": "dense_day6_B",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p14:paragraph:0009:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 14,
+        "text": "- Sinh viên các ngành khoa học kỹ thuật, công nghệ (sinh viên thuộc các trường, khoa: Cơ khí, Điện – Điện tử, Công nghệ Thông tin và Truyền thông, Vật liệu, Hóa và Khoa học sự sống, Toán – Tin, Vật lý Kỹ thuật).\n\nĐiều kiện để được vay",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p14:paragraph:0009",
+          "token_safe_split": true
+        },
+        "score": 0.6932882253355858,
+        "strategy": "dense_day6_B",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p33:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 33]\nViện Sư phạm Kỹ thuật, đã khẳng định vị thế trong hệ thống các cơ sở giáo dục đại học trên cả nước về các chuyên ngành: Sư phạm kỹ thuật, Công nghệ giáo dục và quản lý giáo dục. Năm 2019, Khoa KH&CN Giáo dục là đơn vị tiên phong trong việc mở ngành Công\n\n[hust_handbook_2026:p31:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 31]\ntrong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y\n\n[hust_handbook_2026:p14:paragraph:0009:token:000 | So tay sinh vien_2026.pdf | page 14]\n- Sinh viên các ngành khoa học kỹ thuật, công nghệ (sinh viên thuộc các trường, khoa: Cơ khí, Điện – Điện tử, Công nghệ Thông tin và Truyền thông, Vật liệu, Hóa và Khoa học sự sống, Toán – Tin, Vật lý Kỹ thuật).\n\nĐiều kiện để được vay",
+    "context_ids": [
+      "hust_handbook_2026:p33:paragraph:0003:token:001",
+      "hust_handbook_2026:p31:paragraph:0002:token:001",
+      "hust_handbook_2026:p14:paragraph:0009:token:000"
+    ],
+    "context_chars": 1006,
+    "elapsed_ms": 64.58929996006191,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-01",
+    "split": "dev",
+    "question": "Theo sổ tay, mức điểm rèn luyện nào được xếp loại xuất sắc?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p10:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "báo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng.\n\nKết quả rèn luyện được phân loại như sau:\n\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n\n- Từ 80 điểm đến 89 điểm: loại tốt;\n\n- Từ 70 điểm đến 79 điểm: loại khá;",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p10:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.46578712692044133,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p16:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 16,
+        "text": "30 31\n\nHỌC BỔNG\n\nKHUYẾN KHÍCH HỌC TẬP\n\nA GPA ≥ 3.6\n\nVÀ ĐIỂM RÈN LUYỆN\n\nHỌC KỲ ≥ 90 ĐIỂM\n\nHọc bổng loại xuất sắc Bằng 1.5 lần mức học bổng loại khá\n\nLƯU Ý: KHÔNG XÉT CẤP HỌC BỔNG\n\nĐỐI VỚI SV THUỘC MỘT TRONG CÁC TRƯỜNG HỢP SAU\n\na.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p16:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.2808983101813532,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p10:paragraph:0005:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "định.\n\nĐIỂM RÈN LUYỆN SINH VIÊN\n\nĐỂ CÓ KẾT QUẢ RÈN LUYỆN TRÊN TRUNG BÌNH\n\nVới mục trách nhiệm, tinh thần và thái độ trong học tập bạn dễ dàng đạt được 12 điểm với:\n\n+ 3 điểm nếu bạn có kế hoạch học tập và rèn luyện phù hợp được thầy cô ghi nhận",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p10:paragraph:0005",
+          "token_safe_split": true
+        },
+        "score": 0.2498876577676931,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p10:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 10]\nbáo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng.\n\nKết quả rèn luyện được phân loại như sau:\n\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n\n- Từ 80 điểm đến 89 điểm: loại tốt;\n\n- Từ 70 điểm đến 79 điểm: loại khá;\n\n[hust_handbook_2026:p16:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 16]\n30 31\n\nHỌC BỔNG\n\nKHUYẾN KHÍCH HỌC TẬP\n\nA GPA ≥ 3.6\n\nVÀ ĐIỂM RÈN LUYỆN\n\nHỌC KỲ ≥ 90 ĐIỂM\n\nHọc bổng loại xuất sắc Bằng 1.5 lần mức học bổng loại khá\n\nLƯU Ý: KHÔNG XÉT CẤP HỌC BỔNG\n\nĐỐI VỚI SV THUỘC MỘT TRONG CÁC TRƯỜNG HỢP SAU\n\na.\n\n[hust_handbook_2026:p10:paragraph:0005:token:001 | So tay sinh vien_2026.pdf | page 10]\nđịnh.\n\nĐIỂM RÈN LUYỆN SINH VIÊN\n\nĐỂ CÓ KẾT QUẢ RÈN LUYỆN TRÊN TRUNG BÌNH\n\nVới mục trách nhiệm, tinh thần và thái độ trong học tập bạn dễ dàng đạt được 12 điểm với:\n\n+ 3 điểm nếu bạn có kế hoạch học tập và rèn luyện phù hợp được thầy cô ghi nhận",
+    "context_ids": [
+      "hust_handbook_2026:p10:paragraph:0002:token:001",
+      "hust_handbook_2026:p16:paragraph:0000:token:000",
+      "hust_handbook_2026:p10:paragraph:0005:token:001"
+    ],
+    "context_chars": 983,
+    "elapsed_ms": 2.7283000526949763,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-02",
+    "split": "dev",
+    "question": "Chương trình ATM quà hướng đến những mục đích nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Chương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.3405840104651648,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "Chương trình tích hợp cử nhân – kỹ sư được phát triển với mục đích nâng cao chất lượng của các chương trình đào tạo kỹ sư truyền thống của ĐHBK Hà Nội.\n\nMục tiêu của chương trình là đào tạo nguồn nhân lực có trình độ cao, năng lực nghiên cứu, đổi mới sáng tạo trong khoa học công nghệ.\n\nĐảm bảo mục tiêu đào tạo trình độ đào tạo kỹ sư theo hướng nghề nghiệp chuyên sâu, kết hợp hài hòa giữa kiến thức hiện đại và các kỹ năng cốt lõi.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.25371723835914733,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "món đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.24954103384168286,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 20]\nChương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món\n\n[hust_handbook_2026:p7:paragraph:0005 | So tay sinh vien_2026.pdf | page 7]\nChương trình tích hợp cử nhân – kỹ sư được phát triển với mục đích nâng cao chất lượng của các chương trình đào tạo kỹ sư truyền thống của ĐHBK Hà Nội.\n\nMục tiêu của chương trình là đào tạo nguồn nhân lực có trình độ cao, năng lực nghiên cứu, đổi mới sáng tạo trong khoa học công nghệ.\n\nĐảm bảo mục tiêu đào tạo trình độ đào tạo kỹ sư theo hướng nghề nghiệp chuyên sâu, kết hợp hài hòa giữa kiến thức hiện đại và các kỹ năng cốt lõi.\n\n[hust_handbook_2026:p20:paragraph:0004 | So tay sinh vien_2026.pdf | page 20]\nmón đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0003:token:000",
+      "hust_handbook_2026:p7:paragraph:0005",
+      "hust_handbook_2026:p20:paragraph:0004"
+    ],
+    "context_chars": 1123,
+    "elapsed_ms": 1.7275999998673797,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-03",
+    "split": "dev",
+    "question": "Sinh viên có thể làm gì trên chương trình ATM quà?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Chương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.36424860905786766,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "đồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.311803015220943,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "Tổ chức các hoạt động hướng đến Sinh viên, hướng đến cộng đồng thông qua các chương trình văn hóa văn nghệ, thể dục thể thao, triển khai phong trào Sinh viên 5 tốt tới toàn thể sinh viên trong trường.\n\n53\n\nHỘI SINH VIÊN",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.23245719553060257,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 20]\nChương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món\n\n[hust_handbook_2026:p20:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 20]\nđồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có\n\n[hust_handbook_2026:p27:paragraph:0003 | So tay sinh vien_2026.pdf | page 27]\nTổ chức các hoạt động hướng đến Sinh viên, hướng đến cộng đồng thông qua các chương trình văn hóa văn nghệ, thể dục thể thao, triển khai phong trào Sinh viên 5 tốt tới toàn thể sinh viên trong trường.\n\n53\n\nHỘI SINH VIÊN",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0003:token:000",
+      "hust_handbook_2026:p20:paragraph:0003:token:001",
+      "hust_handbook_2026:p27:paragraph:0003"
+    ],
+    "context_chars": 973,
+    "elapsed_ms": 3.496199962683022,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-04",
+    "split": "dev",
+    "question": "Tổ Tư vấn và Hỗ trợ Sinh viên tiếp sinh viên trực tiếp ở địa chỉ nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0005:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "Tổ tư vấn thực hiện hằng tuần nhiều chương trình tư vấn và hỗ trợ sinh viên theo hình thức trực tiếp tại Phòng tư vấn tâm lý và on- line trên MS-Team: Tư vấn: Gỡ rối và giải tỏa áp lực học tập Tư vấn:",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0005",
+          "token_safe_split": true
+        },
+        "score": 0.40547986473762576,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "GIỚI THIỆU VIỆC LÀM THÊM, GIA SƯ CHO SINH VIÊN\n\nĐăng ký tìm gia sư - dạy kèm\n\nTỔ TƯ VẤN & HỖ TRỢ\n\nSINH VIÊN\n\nĐến với Tổ tư vấn và hỗ trợ sinh viên, các bạn sẽ được bày tỏ, chia sẻ những",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.3712267039836128,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "Tạo ra bước đột phá trong hoạt động hỗ trợ, tư vấn học tập và tâm lý cho SV, bằng cách: Chuẩn hóa quy trình tiếp nhận yêu cầu, phân loại, tổ chức và đánh giá hiệu quả hoạt động hỗ trợ và tư vấn cho sinh viên; Xây dựng cơ sở dữ liệu của sinh viên cần",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p22:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.35564287942246275,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p21:paragraph:0005:token:000 | So tay sinh vien_2026.pdf | page 21]\nTổ tư vấn thực hiện hằng tuần nhiều chương trình tư vấn và hỗ trợ sinh viên theo hình thức trực tiếp tại Phòng tư vấn tâm lý và on- line trên MS-Team: Tư vấn: Gỡ rối và giải tỏa áp lực học tập Tư vấn:\n\n[hust_handbook_2026:p21:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 21]\nGIỚI THIỆU VIỆC LÀM THÊM, GIA SƯ CHO SINH VIÊN\n\nĐăng ký tìm gia sư - dạy kèm\n\nTỔ TƯ VẤN & HỖ TRỢ\n\nSINH VIÊN\n\nĐến với Tổ tư vấn và hỗ trợ sinh viên, các bạn sẽ được bày tỏ, chia sẻ những\n\n[hust_handbook_2026:p22:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 22]\nTạo ra bước đột phá trong hoạt động hỗ trợ, tư vấn học tập và tâm lý cho SV, bằng cách: Chuẩn hóa quy trình tiếp nhận yêu cầu, phân loại, tổ chức và đánh giá hiệu quả hoạt động hỗ trợ và tư vấn cho sinh viên; Xây dựng cơ sở dữ liệu của sinh viên cần",
+    "context_ids": [
+      "hust_handbook_2026:p21:paragraph:0005:token:000",
+      "hust_handbook_2026:p21:paragraph:0003:token:000",
+      "hust_handbook_2026:p22:paragraph:0001:token:000"
+    ],
+    "context_chars": 902,
+    "elapsed_ms": 3.7082000635564327,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-05",
+    "split": "dev",
+    "question": "HUST triển khai web và app eHUST từ năm học nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "TIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p22:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.44047938410489296,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p24:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 24,
+        "text": "2. Hỗ trợ, hướng dẫn sinh viên cách sử dụng hệ thống iCTSV (app và web) cũng như làm quen với quy định về Điểm rèn luyện.\n\n3. Chia sẻ, cung cấp thông tin về các hoạt động để sinh viên lựa chọn tham gia.\n\n4. Là một trong các kênh trung gian",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p24:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.19557415079807972,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "Nhà trường triển khai tính năng giới thiệu nhà trọ cho sinh viên trên app iCTSV từ năm 2022 với mục đích hỗ trợ việc quản lý lưu trú của sinh viên trên địa bàn thành phố Hà Nội cũng như nhằm hỗ trợ thông tin, đánh giá chất lượng nhà trọ cho sinh",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.1904373895425926,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p22:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 22]\nTIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.\n\n[hust_handbook_2026:p24:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 24]\n2. Hỗ trợ, hướng dẫn sinh viên cách sử dụng hệ thống iCTSV (app và web) cũng như làm quen với quy định về Điểm rèn luyện.\n\n3. Chia sẻ, cung cấp thông tin về các hoạt động để sinh viên lựa chọn tham gia.\n\n4. Là một trong các kênh trung gian\n\n[hust_handbook_2026:p21:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 21]\nNhà trường triển khai tính năng giới thiệu nhà trọ cho sinh viên trên app iCTSV từ năm 2022 với mục đích hỗ trợ việc quản lý lưu trú của sinh viên trên địa bàn thành phố Hà Nội cũng như nhằm hỗ trợ thông tin, đánh giá chất lượng nhà trọ cho sinh",
+    "context_ids": [
+      "hust_handbook_2026:p22:paragraph:0002:token:001",
+      "hust_handbook_2026:p24:paragraph:0002:token:000",
+      "hust_handbook_2026:p21:paragraph:0002:token:000"
+    ],
+    "context_chars": 970,
+    "elapsed_ms": 2.464700024574995,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-06",
+    "split": "dev",
+    "question": "Ứng dụng eHUST có thể nhắc sinh viên những thông tin gì?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "Ứng dụng eHust cung cấp các chức năng cho cả sinh viên, giảng viên, cán bộ toàn trường. Với ứng dụng này, bạn sẽ có khả năng truy cập và khai thác các thông tin của trường một cách nhanh chóng, dễ dàng và hiệu quả:\n\n- Các thông tin về lớp học, thời khoá biểu\n\n- Tra cứu thông tin giáo viên, sinh viên, học phần, lớp học, lớp sinh viên, …\n\n- Nhắc lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.40315882994189645,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p6:paragraph:0006",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 6,
+        "text": "Sinh viên tra cứu trên Quản lý Đào tạo (QLDT)/eHUST, cổng thông tin ĐHBKHN, cổng thông tin công tác sinh viên, liên hệ với Ban Công tác sinh viên, văn phòng Trường, Khoa chuyên môn hoặc liên hệ với cố vấn học tập và quản lý lớp sinh viên.\n\nCổng thông tin quản lý đào tạo Sổ tay sinh viên online\n\nQUY CHẾ, THỦ TỤC, THÔNG\n\nTIN DÀNH CHO SINH VIÊN",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.26025471043678006,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p19:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 19,
+        "text": "TIN TUYỂN DỤNG",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.24325688613627885,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p22:paragraph:0004 | So tay sinh vien_2026.pdf | page 22]\nỨng dụng eHust cung cấp các chức năng cho cả sinh viên, giảng viên, cán bộ toàn trường. Với ứng dụng này, bạn sẽ có khả năng truy cập và khai thác các thông tin của trường một cách nhanh chóng, dễ dàng và hiệu quả:\n\n- Các thông tin về lớp học, thời khoá biểu\n\n- Tra cứu thông tin giáo viên, sinh viên, học phần, lớp học, lớp sinh viên, …\n\n- Nhắc lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng.\n\n[hust_handbook_2026:p6:paragraph:0006 | So tay sinh vien_2026.pdf | page 6]\nSinh viên tra cứu trên Quản lý Đào tạo (QLDT)/eHUST, cổng thông tin ĐHBKHN, cổng thông tin công tác sinh viên, liên hệ với Ban Công tác sinh viên, văn phòng Trường, Khoa chuyên môn hoặc liên hệ với cố vấn học tập và quản lý lớp sinh viên.\n\nCổng thông tin quản lý đào tạo Sổ tay sinh viên online\n\nQUY CHẾ, THỦ TỤC, THÔNG\n\nTIN DÀNH CHO SINH VIÊN\n\n[hust_handbook_2026:p19:paragraph:0005 | So tay sinh vien_2026.pdf | page 19]\nTIN TUYỂN DỤNG",
+    "context_ids": [
+      "hust_handbook_2026:p22:paragraph:0004",
+      "hust_handbook_2026:p6:paragraph:0006",
+      "hust_handbook_2026:p19:paragraph:0005"
+    ],
+    "context_chars": 1007,
+    "elapsed_ms": 2.247900003567338,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-07",
+    "split": "dev",
+    "question": "Hệ thống sổ tay sinh viên trực tuyến hỗ trợ công việc gì?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.521526393068386,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "TIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p22:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.2881937250360618,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "fb.com/ctsv.hust.edu.vn Hướng dẫn cấp lại mật khẩu email (tài khoản Office 365) cho sinh viên 45\n\nSỔ TAY SINH VIÊN ONLINE\n\nHUST WORK - CỔNG THÔNG TIN HỖ TRỢ HƯỚNG NGHIỆP,\n\nVIỆC LÀM SINH VIÊN",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p23:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.2778234017066121,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;\n\n[hust_handbook_2026:p22:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 22]\nTIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.\n\n[hust_handbook_2026:p23:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 23]\nfb.com/ctsv.hust.edu.vn Hướng dẫn cấp lại mật khẩu email (tài khoản Office 365) cho sinh viên 45\n\nSỔ TAY SINH VIÊN ONLINE\n\nHUST WORK - CỔNG THÔNG TIN HỖ TRỢ HƯỚNG NGHIỆP,\n\nVIỆC LÀM SINH VIÊN",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0003",
+      "hust_handbook_2026:p22:paragraph:0002:token:001",
+      "hust_handbook_2026:p23:paragraph:0002:token:001"
+    ],
+    "context_chars": 1110,
+    "elapsed_ms": 2.871899981983006,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-08",
+    "split": "dev",
+    "question": "Sinh viên được cấp loại tài khoản nào để truy cập cổng thông tin và đăng ký học phần?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p23:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.591904107911978,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p14:paragraph:0006:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 14,
+        "text": "số 29/2025/QĐ-TTg của Thủ tướng Chính phủ).\n\nCÁCH THỨC ĐĂNG KÝ CẤP GIẤY VAY VỐN:\n\nSinh viên đăng nhập vào tài khoản cá nhân trên hệ thống cổng thông tin sinh viên eHUST hoặc sổ tay CTSV online để đăng ký nhận giấy vay vốn.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p14:paragraph:0006",
+          "token_safe_split": true
+        },
+        "score": 0.3364369634213211,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p18:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 18,
+        "text": "Ban Công tác sinh viên thông báo công khai kế hoạch đăng ký xét, cấp học bổng trên cổng thông tin dành cho người học hoặc các trang thông tin chính thức khác của ĐHBK Hà Nội.\n\nThời gian thông báo tối thiểu là 03 tuần để người học chuẩn bị hồ sơ và đăng ký.\n\nNgười học đăng ký xét học bổng bằng hình thức trực tuyến (online) và nộp hồ sơ văn bản giấy về Ban Công tác sinh viên.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.31102436119772947,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 23]\nchung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.\n\n[hust_handbook_2026:p14:paragraph:0006:token:001 | So tay sinh vien_2026.pdf | page 14]\nsố 29/2025/QĐ-TTg của Thủ tướng Chính phủ).\n\nCÁCH THỨC ĐĂNG KÝ CẤP GIẤY VAY VỐN:\n\nSinh viên đăng nhập vào tài khoản cá nhân trên hệ thống cổng thông tin sinh viên eHUST hoặc sổ tay CTSV online để đăng ký nhận giấy vay vốn.\n\n[hust_handbook_2026:p18:paragraph:0001 | So tay sinh vien_2026.pdf | page 18]\nBan Công tác sinh viên thông báo công khai kế hoạch đăng ký xét, cấp học bổng trên cổng thông tin dành cho người học hoặc các trang thông tin chính thức khác của ĐHBK Hà Nội.\n\nThời gian thông báo tối thiểu là 03 tuần để người học chuẩn bị hồ sơ và đăng ký.\n\nNgười học đăng ký xét học bổng bằng hình thức trực tuyến (online) và nộp hồ sơ văn bản giấy về Ban Công tác sinh viên.",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0001:token:001",
+      "hust_handbook_2026:p14:paragraph:0006:token:001",
+      "hust_handbook_2026:p18:paragraph:0001"
+    ],
+    "context_chars": 1102,
+    "elapsed_ms": 5.196099984459579,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-09",
+    "split": "dev",
+    "question": "Đảng ủy Khối các trường ĐH, CĐ Hà Nội nhận hồ sơ chuyển sinh hoạt Đảng vào những buổi nào và trong khung giờ nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0006",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Đảng viên nhận hồ sơ đảng viên từ Huyện ủy và chuyển lên Đảng ủy Khối các trường ĐH – CĐ Hà Nội và làm theo hướng dẫn của cán bộ Ban Tổ chức Đảng ủy Khối.\n\n05 06 07 08 Đảng viên nhận lại hồ sơ đảng viên từ Đảng ủy Khối và gửi về Văn phòng Đảng ủy Đại học Bách Khoa Hà Nội sau đó làm theo hướng dẫn của cán bộ Văn phòng Đảng ủy.\n\nSau khi Văn phòng Đảng ủy kiểm tra, đảng viên được viết giấy giới thiệu về sinh hoạt tại các chi bộ sinh viên tương ứng.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.532468344764118,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p25:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 25,
+        "text": "Đảng ủy phường (xã) viết giấy giới thiệu chuyển sinh hoạt Đảng. Giấy giới thiệu chuyển sinh hoạt Đảng ghi rõ: Nơi chuyển đến sinh hoạt Đảng: Đảng bộ ĐHBK Hà Nội.\n\nKính chuyển: Đảng ủy khối các trường ĐH, CĐ Hà Nội.\n\n02\n\nBƯỚC",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p25:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.5088609817151546,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p25:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 25,
+        "text": "Đảng viên nhận hồ sơ Đảng viên từ Đảng ủy phường (xã) nơi cư trú hoặc làm việc, chuyển về Đảng ủy khối các trường ĐH-CĐ Hà Nội tại số 1 Trần Phú, P. Văn Quán, Q.Hà Đông, Tp. Hà Nội (nhà 2C).\n\n03\n\nBƯỚC\n\nĐảng viên nhận lại",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p25:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.5066178217720286,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p26:paragraph:0006 | So tay sinh vien_2026.pdf | page 26]\nĐảng viên nhận hồ sơ đảng viên từ Huyện ủy và chuyển lên Đảng ủy Khối các trường ĐH – CĐ Hà Nội và làm theo hướng dẫn của cán bộ Ban Tổ chức Đảng ủy Khối.\n\n05 06 07 08 Đảng viên nhận lại hồ sơ đảng viên từ Đảng ủy Khối và gửi về Văn phòng Đảng ủy Đại học Bách Khoa Hà Nội sau đó làm theo hướng dẫn của cán bộ Văn phòng Đảng ủy.\n\nSau khi Văn phòng Đảng ủy kiểm tra, đảng viên được viết giấy giới thiệu về sinh hoạt tại các chi bộ sinh viên tương ứng.\n\n[hust_handbook_2026:p25:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 25]\nĐảng ủy phường (xã) viết giấy giới thiệu chuyển sinh hoạt Đảng. Giấy giới thiệu chuyển sinh hoạt Đảng ghi rõ: Nơi chuyển đến sinh hoạt Đảng: Đảng bộ ĐHBK Hà Nội.\n\nKính chuyển: Đảng ủy khối các trường ĐH, CĐ Hà Nội.\n\n02\n\nBƯỚC\n\n[hust_handbook_2026:p25:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 25]\nĐảng viên nhận hồ sơ Đảng viên từ Đảng ủy phường (xã) nơi cư trú hoặc làm việc, chuyển về Đảng ủy khối các trường ĐH-CĐ Hà Nội tại số 1 Trần Phú, P. Văn Quán, Q.Hà Đông, Tp. Hà Nội (nhà 2C).\n\n03\n\nBƯỚC\n\nĐảng viên nhận lại",
+    "context_ids": [
+      "hust_handbook_2026:p26:paragraph:0006",
+      "hust_handbook_2026:p25:paragraph:0000:token:001",
+      "hust_handbook_2026:p25:paragraph:0001:token:000"
+    ],
+    "context_chars": 1151,
+    "elapsed_ms": 2.6419999776408076,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-10",
+    "split": "dev",
+    "question": "Chi bộ sinh viên họp chính trị định kỳ với tần suất thế nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Mỗi Chi bộ sẽ chịu sự quản lý của đội ngũ Chi ủy. Cơ cấu tổ chức của Chi ủy Chi bộ sinh viên gồm 1 Bí thư (là cán bộ), 1 Phó bí thư và có 1 đến 3 Chi uỷ viên. Chi bộ Sinh viên có hai mảng hoạt động chính đó là Hoạt động chính trị và hoạt động ngoại khoá chuyên đề. Trong đó: Hoạt động chính trị: Chi bộ sinh viên họp định kỳ mỗi tháng một lần và phụ trách trực tiếp những công tác liên quan đến Phát triển Đảng và chuyển Đảng chính thức của sinh viên.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.371830145479089,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "08 Chi bộ Sinh viên Kinh tế Sinh viên thuộc Trường Kinh tế.\n\n07 Chi bộ Sinh viên Cơ khí Sinh viên thuộc Trường Cơ khí.\n\n06 Chi bộ Sinh viên Công nghệ thông tin và Truyền thông Sinh viên thuộc Trường Công nghệ thông tin và Truyền thông.\n\n05 Chi bộ Sinh viên Toán – Tin Sinh viên thuộc Khoa Toán – Tin.\n\n04 Chi bộ Sinh viên Điện – Điện tử Sinh viên thuộc Trường Điện – Điện tử.\n\n03 Chi bộ Sinh viên Vật liệu Sinh viên thuộc Trường Vật liệu.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.2464854814751598,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Chi bộ Sinh viên là một tổ chức chính trị trực thuộc Đảng bộ Đại học Bách Khoa Hà Nội hoặc Đảng bộ Bộ phận của các Trường/Khoa đào tạo, là nơi sinh hoạt của những Đảng viên là sinh viên, học viên đang học tập tại Đại học BKHN.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.24414775921891652,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p26:paragraph:0003 | So tay sinh vien_2026.pdf | page 26]\nMỗi Chi bộ sẽ chịu sự quản lý của đội ngũ Chi ủy. Cơ cấu tổ chức của Chi ủy Chi bộ sinh viên gồm 1 Bí thư (là cán bộ), 1 Phó bí thư và có 1 đến 3 Chi uỷ viên. Chi bộ Sinh viên có hai mảng hoạt động chính đó là Hoạt động chính trị và hoạt động ngoại khoá chuyên đề. Trong đó: Hoạt động chính trị: Chi bộ sinh viên họp định kỳ mỗi tháng một lần và phụ trách trực tiếp những công tác liên quan đến Phát triển Đảng và chuyển Đảng chính thức của sinh viên.\n\n[hust_handbook_2026:p26:paragraph:0000 | So tay sinh vien_2026.pdf | page 26]\n08 Chi bộ Sinh viên Kinh tế Sinh viên thuộc Trường Kinh tế.\n\n07 Chi bộ Sinh viên Cơ khí Sinh viên thuộc Trường Cơ khí.\n\n06 Chi bộ Sinh viên Công nghệ thông tin và Truyền thông Sinh viên thuộc Trường Công nghệ thông tin và Truyền thông.\n\n05 Chi bộ Sinh viên Toán – Tin Sinh viên thuộc Khoa Toán – Tin.\n\n04 Chi bộ Sinh viên Điện – Điện tử Sinh viên thuộc Trường Điện – Điện tử.\n\n03 Chi bộ Sinh viên Vật liệu Sinh viên thuộc Trường Vật liệu.",
+    "context_ids": [
+      "hust_handbook_2026:p26:paragraph:0003",
+      "hust_handbook_2026:p26:paragraph:0000"
+    ],
+    "context_chars": 1047,
+    "elapsed_ms": 2.7362999971956015,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-11",
+    "split": "dev",
+    "question": "Hội Sinh viên đại diện cho nhóm nào trong trường?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "đến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.4586424439431623,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p19:paragraph:0000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 19,
+        "text": "36 37\n\nHỖ TRỢ HƯỚNG NGHIỆP\n\n& VIỆC LÀM\n\nCHO SINH VIÊN\n\nCông tác tư vấn hỗ trợ hướng nghiệp và việc làm cho sinh viên luôn được ĐHBK Hà Nội quan tâm, chú trọng.\n\nHàng năm, Nhà trường phối hợp với các đơn vị, doanh nghiệp... tổ chức ngày hội hướng nghiệp, mời các diễn giả là các cựu sinh viên, đại diện doanh nghiệp, các chuyên gia chia sẻ kinh nghiệm, truyền cảm hứng cho sinh viên.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.22960055356601092,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "38 39\n\nPHÁT TRIỂN KỸ NĂNG MỀM\n\nCHO SINH VIÊN\n\nKHÓA HỌC KỸ NĂNG MỀM CHO SINH VIÊN THAM GIA\n\nCÁC CÔNG TÁC XÃ HỘI\n\nKHÓA HỌC KỸ NĂNG ỨNG TUYỂN CÔNG VIỆC\n\nSinh viên, lực lượng lao động chính trong tương lai sẽ làm việc trong môi trường toàn",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.2012976608142339,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p27:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 27]\nđến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).\n\n[hust_handbook_2026:p19:paragraph:0000 | So tay sinh vien_2026.pdf | page 19]\n36 37\n\nHỖ TRỢ HƯỚNG NGHIỆP\n\n& VIỆC LÀM\n\nCHO SINH VIÊN\n\nCông tác tư vấn hỗ trợ hướng nghiệp và việc làm cho sinh viên luôn được ĐHBK Hà Nội quan tâm, chú trọng.\n\nHàng năm, Nhà trường phối hợp với các đơn vị, doanh nghiệp... tổ chức ngày hội hướng nghiệp, mời các diễn giả là các cựu sinh viên, đại diện doanh nghiệp, các chuyên gia chia sẻ kinh nghiệm, truyền cảm hứng cho sinh viên.\n\n[hust_handbook_2026:p20:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 20]\n38 39\n\nPHÁT TRIỂN KỸ NĂNG MỀM\n\nCHO SINH VIÊN\n\nKHÓA HỌC KỸ NĂNG MỀM CHO SINH VIÊN THAM GIA\n\nCÁC CÔNG TÁC XÃ HỘI\n\nKHÓA HỌC KỸ NĂNG ỨNG TUYỂN CÔNG VIỆC\n\nSinh viên, lực lượng lao động chính trong tương lai sẽ làm việc trong môi trường toàn",
+    "context_ids": [
+      "hust_handbook_2026:p27:paragraph:0002:token:001",
+      "hust_handbook_2026:p19:paragraph:0000",
+      "hust_handbook_2026:p20:paragraph:0000:token:000"
+    ],
+    "context_chars": 1093,
+    "elapsed_ms": 2.4198999162763357,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-12",
+    "split": "dev",
+    "question": "Sổ tay mô tả nhiệm vụ chính của Ban Công tác Sinh viên đối với người học là gì?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.28068176953211715,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p17:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 17,
+        "text": "Hết thời gian đăng ký, Ban Công tác sinh viên tổng hợp danh sách và báo cáo Hội đồng xét, cấp học bổng trao đổi sinh viên để họp xét.\n\nBan Công tác sinh viên làm hồ sơ báo cáo Giám đốc đại học ra quyết định cấp học bổng cho sinh viên.\n\nMỤC ĐÍCH CỦA HỌC BỔNG\n\nThực hiện trách nhiệm của ĐHBK Hà Nội đối với xã hội trong công tác đào tạo nguồn nhân lực chất lượng cao phục vụ cho quá trình công nghiệp hóa, hiện đại hóa đất nước.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.2535615573075775,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p6:paragraph:0006",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 6,
+        "text": "Sinh viên tra cứu trên Quản lý Đào tạo (QLDT)/eHUST, cổng thông tin ĐHBKHN, cổng thông tin công tác sinh viên, liên hệ với Ban Công tác sinh viên, văn phòng Trường, Khoa chuyên môn hoặc liên hệ với cố vấn học tập và quản lý lớp sinh viên.\n\nCổng thông tin quản lý đào tạo Sổ tay sinh viên online\n\nQUY CHẾ, THỦ TỤC, THÔNG\n\nTIN DÀNH CHO SINH VIÊN",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.2508711636206069,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;\n\n[hust_handbook_2026:p17:paragraph:0005 | So tay sinh vien_2026.pdf | page 17]\nHết thời gian đăng ký, Ban Công tác sinh viên tổng hợp danh sách và báo cáo Hội đồng xét, cấp học bổng trao đổi sinh viên để họp xét.\n\nBan Công tác sinh viên làm hồ sơ báo cáo Giám đốc đại học ra quyết định cấp học bổng cho sinh viên.\n\nMỤC ĐÍCH CỦA HỌC BỔNG\n\nThực hiện trách nhiệm của ĐHBK Hà Nội đối với xã hội trong công tác đào tạo nguồn nhân lực chất lượng cao phục vụ cho quá trình công nghiệp hóa, hiện đại hóa đất nước.",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0003",
+      "hust_handbook_2026:p17:paragraph:0005"
+    ],
+    "context_chars": 1028,
+    "elapsed_ms": 5.565300001762807,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-13",
+    "split": "dev",
+    "question": "Văn phòng Quản lý ký túc xá được ghi ở địa chỉ nào?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p46:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 46,
+        "text": "90 Ở trọ\n\nKHÔNG CÒN\n\nLÀ NỖI LO\n\n91\n\nKÝ TÚC XÁ\n\nBÁCH KHOA\n\nKý túc xá Bách Khoa hiện nay đang áp dụng Hệ thống Ký túc xá trực tuyến CSAM- HUST hiện đại để tạo thuận lợi cho sinh viên trong quá trình lưu trú:\n\n- Đăng",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p46:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.4246861064930308,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p47:paragraph:0000:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 47,
+        "text": "Đoàn Thanh niên – Hội Sinh viên, địa chỉ: https://www.facebook.com/ groups/NhatroBKHN/ là một kênh thông tin được các bạn sinh viên tin cậy chia sẻ địa chỉ nhà trọ mới, tìm bạn ở cùng phòng, nhượng lại phòng ....\n\nSINH HOẠT\n\nNHÀ TRỌ\n\nỞ GHÉP CHUNG CHỦ",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p47:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.2541902756170146,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p37:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 37,
+        "text": "Không được treo, dán áp phích, băng rôn, biểu ngữ khi chưa được phép của Nhà trường; không tự ý viết vẽ, dán lên tường, bàn ghế trong phòng học, phòng ở ký túc xá và các khu vực khác trong trường.\n\n01 04 02 03 05 06\n\nỨNG",
+        "metadata": {
+          "section": "quy_tac_ung_xu",
+          "parent_chunk_id": "hust_handbook_2026:p37:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.2441647248461292,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p46:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 46]\n90 Ở trọ\n\nKHÔNG CÒN\n\nLÀ NỖI LO\n\n91\n\nKÝ TÚC XÁ\n\nBÁCH KHOA\n\nKý túc xá Bách Khoa hiện nay đang áp dụng Hệ thống Ký túc xá trực tuyến CSAM- HUST hiện đại để tạo thuận lợi cho sinh viên trong quá trình lưu trú:\n\n- Đăng\n\n[hust_handbook_2026:p47:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 47]\nĐoàn Thanh niên – Hội Sinh viên, địa chỉ: https://www.facebook.com/ groups/NhatroBKHN/ là một kênh thông tin được các bạn sinh viên tin cậy chia sẻ địa chỉ nhà trọ mới, tìm bạn ở cùng phòng, nhượng lại phòng ....\n\nSINH HOẠT\n\nNHÀ TRỌ\n\nỞ GHÉP CHUNG CHỦ\n\n[hust_handbook_2026:p37:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 37]\nKhông được treo, dán áp phích, băng rôn, biểu ngữ khi chưa được phép của Nhà trường; không tự ý viết vẽ, dán lên tường, bàn ghế trong phòng học, phòng ở ký túc xá và các khu vực khác trong trường.\n\n01 04 02 03 05 06\n\nỨNG",
+    "context_ids": [
+      "hust_handbook_2026:p46:paragraph:0000:token:000",
+      "hust_handbook_2026:p47:paragraph:0000:token:001",
+      "hust_handbook_2026:p37:paragraph:0002:token:000"
+    ],
+    "context_chars": 951,
+    "elapsed_ms": 2.7013999642804265,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-14",
+    "split": "dev",
+    "question": "Trường Cơ khí có bao nhiêu chương trình đào tạo theo sổ tay?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p30:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 30,
+        "text": "Đội ngũ cán bộ, giảng viên có 300 người.\n\nTrường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT).",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.32345240824463234,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p30:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 30,
+        "text": "TRƯỜNG, KHOA ĐÀO TẠO\n\nPHẦN 4\n\n58 59\n\nTRƯỜNG\n\nCƠ KHÍ\n\nSCHOOL OF MECHANICAL ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nKhoa Cơ khí Chế tạo máy: thanh.nguyenthibich@hust.edu.vn Khoa Cơ điện tử: hai.daochung@hust.edu.vn Khoa Cơ khí",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p30:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.2919513734441568,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p18:paragraph:0005:token:002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 18,
+        "text": "TRIỆU ĐỒNG/THÁNG\n\nCHƯƠNG TRÌNH ĐÀO TẠO TÀI NĂNG\n\nCHƯƠNG TRÌNH ĐÀO TẠO CÁC NGÀNH KỸ THUẬT THEN CHỐT\n\nVÀ CÔNG NGHỆ CHIẾN LƯỢC",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p18:paragraph:0005",
+          "token_safe_split": true
+        },
+        "score": 0.2321254098994902,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p30:paragraph:0001 | So tay sinh vien_2026.pdf | page 30]\nĐội ngũ cán bộ, giảng viên có 300 người.\n\nTrường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT).\n\n[hust_handbook_2026:p30:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 30]\nTRƯỜNG, KHOA ĐÀO TẠO\n\nPHẦN 4\n\n58 59\n\nTRƯỜNG\n\nCƠ KHÍ\n\nSCHOOL OF MECHANICAL ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nKhoa Cơ khí Chế tạo máy: thanh.nguyenthibich@hust.edu.vn Khoa Cơ điện tử: hai.daochung@hust.edu.vn Khoa Cơ khí\n\n[hust_handbook_2026:p18:paragraph:0005:token:002 | So tay sinh vien_2026.pdf | page 18]\nTRIỆU ĐỒNG/THÁNG\n\nCHƯƠNG TRÌNH ĐÀO TẠO TÀI NĂNG\n\nCHƯƠNG TRÌNH ĐÀO TẠO CÁC NGÀNH KỸ THUẬT THEN CHỐT\n\nVÀ CÔNG NGHỆ CHIẾN LƯỢC",
+    "context_ids": [
+      "hust_handbook_2026:p30:paragraph:0001",
+      "hust_handbook_2026:p30:paragraph:0000:token:000",
+      "hust_handbook_2026:p18:paragraph:0005:token:002"
+    ],
+    "context_chars": 759,
+    "elapsed_ms": 1.4908999437466264,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-15",
+    "split": "dev",
+    "question": "Trường Điện – Điện tử gồm những đơn vị đào tạo và nghiên cứu nào theo phần giới thiệu?",
+    "method": "tfidf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "sinh, Kỹ thuật Đa phương tiện.\n\nTrường Điện - Điện tử được tổ chức xếp hạng QS World University Ranking xếp hạng TOP 350 trong lĩnh vực Điện - Điện tử Thế giới, TOP 1 Việt Nam.\n\n61\n\nTRƯỜNG CNTT &\n\nTRUYỀN THÔNG\n\nSCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nCó 02 khoa đào tạo, 04 trung tâm nghiên cứu, 02 trung tâm hỗ trợ các hoạt động đào tạo, nghiên cứu, chuyển giao công nghệ.",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.3690023323826549,
+        "strategy": "tfidf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "trong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p31:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.2926663132397866,
+        "strategy": "tfidf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "60\n\nTRƯỜNG\n\nĐIỆN - ĐIỆN TỬ\n\nSCHOOL OF ELECTRICAL AND ELECTRONICS ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nBao gồm 4 khoa, 1 trung tâm đào tạo thực hành & 1 viện nghiên cứu.\n\n235 CB giảng viên, trong đó có 3 Giáo sư, 52 Phó giáo sư, 106 Tiến sĩ. Hầu hết là các giảng viên được đào tạo bài bản tại các nước tiên tiến trên thế giới.",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.2866884705360778,
+        "strategy": "tfidf",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p31:paragraph:0003 | So tay sinh vien_2026.pdf | page 31]\nsinh, Kỹ thuật Đa phương tiện.\n\nTrường Điện - Điện tử được tổ chức xếp hạng QS World University Ranking xếp hạng TOP 350 trong lĩnh vực Điện - Điện tử Thế giới, TOP 1 Việt Nam.\n\n61\n\nTRƯỜNG CNTT &\n\nTRUYỀN THÔNG\n\nSCHOOL OF INFORMATION AND COMMUNICATION TECHNOLOGY\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nCó 02 khoa đào tạo, 04 trung tâm nghiên cứu, 02 trung tâm hỗ trợ các hoạt động đào tạo, nghiên cứu, chuyển giao công nghệ.\n\n[hust_handbook_2026:p31:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 31]\ntrong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y",
+    "context_ids": [
+      "hust_handbook_2026:p31:paragraph:0003",
+      "hust_handbook_2026:p31:paragraph:0002:token:001"
+    ],
+    "context_chars": 845,
+    "elapsed_ms": 4.221000010147691,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-01",
+    "split": "dev",
+    "question": "Theo sổ tay, mức điểm rèn luyện nào được xếp loại xuất sắc?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p10:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "báo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng.\n\nKết quả rèn luyện được phân loại như sau:\n\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n\n- Từ 80 điểm đến 89 điểm: loại tốt;\n\n- Từ 70 điểm đến 79 điểm: loại khá;",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p10:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p11:paragraph:0014:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 11,
+        "text": "sáng kiến cải tiến kỹ thuật khởi MC 8 5.3.6 Đạt danh hiệu \"Sinh viên 5 tốt\" từ cấp Đại học trở lên MC 8 5.3.7 Có kết quả học tập và rèn luyện kỳ trước đó đạt mức xuất sắc (GPA ≥ 3.6, RL ≥ 90) trở lên. * 6 5.3.8 Có kết quả học tập và rèn luyện kỳ",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p11:paragraph:0014",
+          "token_safe_split": true
+        },
+        "score": 0.03055037313432836,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p11:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 11,
+        "text": "khóa đào tạo kỹ năng nghề nghiệp, kỹ năng bổ trợ chuyên môn MC 6 2.1.6 Chủ động xây dựng, hoàn thiện và cập nhật Portfolio cá nhân theo từng học kỳ. MC 3 2 Trách nhiệm và tinh thần tham gia các kỳ thi, cuộc thi (tối đa 12 điểm) 2.2.1 Tham gia công bố",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p11:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p10:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 10]\nbáo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng.\n\nKết quả rèn luyện được phân loại như sau:\n\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n\n- Từ 80 điểm đến 89 điểm: loại tốt;\n\n- Từ 70 điểm đến 79 điểm: loại khá;\n\n[hust_handbook_2026:p11:paragraph:0014:token:000 | So tay sinh vien_2026.pdf | page 11]\nsáng kiến cải tiến kỹ thuật khởi MC 8 5.3.6 Đạt danh hiệu \"Sinh viên 5 tốt\" từ cấp Đại học trở lên MC 8 5.3.7 Có kết quả học tập và rèn luyện kỳ trước đó đạt mức xuất sắc (GPA ≥ 3.6, RL ≥ 90) trở lên. * 6 5.3.8 Có kết quả học tập và rèn luyện kỳ\n\n[hust_handbook_2026:p11:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 11]\nkhóa đào tạo kỹ năng nghề nghiệp, kỹ năng bổ trợ chuyên môn MC 6 2.1.6 Chủ động xây dựng, hoàn thiện và cập nhật Portfolio cá nhân theo từng học kỳ. MC 3 2 Trách nhiệm và tinh thần tham gia các kỳ thi, cuộc thi (tối đa 12 điểm) 2.2.1 Tham gia công bố",
+    "context_ids": [
+      "hust_handbook_2026:p10:paragraph:0002:token:001",
+      "hust_handbook_2026:p11:paragraph:0014:token:000",
+      "hust_handbook_2026:p11:paragraph:0002:token:001"
+    ],
+    "context_chars": 1006,
+    "elapsed_ms": 263.3688999339938,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-02",
+    "split": "dev",
+    "question": "Chương trình ATM quà hướng đến những mục đích nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Chương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "món đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "Chương trình tích hợp cử nhân – kỹ sư được phát triển với mục đích nâng cao chất lượng của các chương trình đào tạo kỹ sư truyền thống của ĐHBK Hà Nội.\n\nMục tiêu của chương trình là đào tạo nguồn nhân lực có trình độ cao, năng lực nghiên cứu, đổi mới sáng tạo trong khoa học công nghệ.\n\nĐảm bảo mục tiêu đào tạo trình độ đào tạo kỹ sư theo hướng nghề nghiệp chuyên sâu, kết hợp hài hòa giữa kiến thức hiện đại và các kỹ năng cốt lõi.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.0315136476426799,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 20]\nChương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món\n\n[hust_handbook_2026:p20:paragraph:0004 | So tay sinh vien_2026.pdf | page 20]\nmón đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.\n\n[hust_handbook_2026:p7:paragraph:0005 | So tay sinh vien_2026.pdf | page 7]\nChương trình tích hợp cử nhân – kỹ sư được phát triển với mục đích nâng cao chất lượng của các chương trình đào tạo kỹ sư truyền thống của ĐHBK Hà Nội.\n\nMục tiêu của chương trình là đào tạo nguồn nhân lực có trình độ cao, năng lực nghiên cứu, đổi mới sáng tạo trong khoa học công nghệ.\n\nĐảm bảo mục tiêu đào tạo trình độ đào tạo kỹ sư theo hướng nghề nghiệp chuyên sâu, kết hợp hài hòa giữa kiến thức hiện đại và các kỹ năng cốt lõi.",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0003:token:000",
+      "hust_handbook_2026:p20:paragraph:0004",
+      "hust_handbook_2026:p7:paragraph:0005"
+    ],
+    "context_chars": 1123,
+    "elapsed_ms": 73.78749991767108,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-03",
+    "split": "dev",
+    "question": "Sinh viên có thể làm gì trên chương trình ATM quà?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "Chương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0003:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "đồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p20:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 20,
+        "text": "món đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.0315136476426799,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p20:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 20]\nChương trình ATM quà được triển khai bắt đầu từ năm 2022 trên ứng dụng iCTSV. ATM quà là nơi cho tặng và tìm kiếm các loại đồ mới/ cũ hoàn toàn miễn phí. Nếu bạn có món đồ nào không cần dùng tới nhưng lại có giá trị với người khác hãy cho tặng món\n\n[hust_handbook_2026:p20:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 20]\nđồ của bạn tại ATM quà để một ai đó có thể dùng thay vì bạn vứt nó đi hay lưu cữu vô ích rồi sẽ hao mòn hỏng hóc theo thời gian. Ngược lại, nếu bạn đang cần món đồ nào đó thì thay vì ngay lập tức mua nó, bạn có thể tìm kiếm trên ATM quà, biết đâu có\n\n[hust_handbook_2026:p20:paragraph:0004 | So tay sinh vien_2026.pdf | page 20]\nmón đồ bạn cần, vừa tiết kiệm chi phí vừa tránh lãng phí chung.\n\nMục đích của chương trình ATM quà vừa tránh lãng phí cho từng cá nhân và xã hội, lại góp phần bảo vệ môi trường, lan tỏa yêu thương.",
+    "context_ids": [
+      "hust_handbook_2026:p20:paragraph:0003:token:000",
+      "hust_handbook_2026:p20:paragraph:0003:token:001",
+      "hust_handbook_2026:p20:paragraph:0004"
+    ],
+    "context_chars": 951,
+    "elapsed_ms": 88.15369999501854,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-04",
+    "split": "dev",
+    "question": "Tổ Tư vấn và Hỗ trợ Sinh viên tiếp sinh viên trực tiếp ở địa chỉ nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0003:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "GIỚI THIỆU VIỆC LÀM THÊM, GIA SƯ CHO SINH VIÊN\n\nĐăng ký tìm gia sư - dạy kèm\n\nTỔ TƯ VẤN & HỖ TRỢ\n\nSINH VIÊN\n\nĐến với Tổ tư vấn và hỗ trợ sinh viên, các bạn sẽ được bày tỏ, chia sẻ những",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0003",
+          "token_safe_split": true
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0005:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "Tổ tư vấn thực hiện hằng tuần nhiều chương trình tư vấn và hỗ trợ sinh viên theo hình thức trực tiếp tại Phòng tư vấn tâm lý và on- line trên MS-Team: Tư vấn: Gỡ rối và giải tỏa áp lực học tập Tư vấn:",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p21:paragraph:0005",
+          "token_safe_split": true
+        },
+        "score": 0.031544957774465976,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p21:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 21,
+        "text": "Hãy cùng Nhà trường chung tay xây dựng và phát triển “Điểm tựa yêu thương” thành một địa chỉ tư vấn tin cậy, an toàn, thân thiện với sinh viên.\n\nBạn có thể:\n\n- Tham gia CLB hỗ trợ học tập sinh viên;\n\n- Tham gia đội cộng tác viên hỗ trợ tổ chức các hoạt động.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p21:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 21]\nGIỚI THIỆU VIỆC LÀM THÊM, GIA SƯ CHO SINH VIÊN\n\nĐăng ký tìm gia sư - dạy kèm\n\nTỔ TƯ VẤN & HỖ TRỢ\n\nSINH VIÊN\n\nĐến với Tổ tư vấn và hỗ trợ sinh viên, các bạn sẽ được bày tỏ, chia sẻ những\n\n[hust_handbook_2026:p21:paragraph:0005:token:000 | So tay sinh vien_2026.pdf | page 21]\nTổ tư vấn thực hiện hằng tuần nhiều chương trình tư vấn và hỗ trợ sinh viên theo hình thức trực tiếp tại Phòng tư vấn tâm lý và on- line trên MS-Team: Tư vấn: Gỡ rối và giải tỏa áp lực học tập Tư vấn:\n\n[hust_handbook_2026:p21:paragraph:0004 | So tay sinh vien_2026.pdf | page 21]\nHãy cùng Nhà trường chung tay xây dựng và phát triển “Điểm tựa yêu thương” thành một địa chỉ tư vấn tin cậy, an toàn, thân thiện với sinh viên.\n\nBạn có thể:\n\n- Tham gia CLB hỗ trợ học tập sinh viên;\n\n- Tham gia đội cộng tác viên hỗ trợ tổ chức các hoạt động.",
+    "context_ids": [
+      "hust_handbook_2026:p21:paragraph:0003:token:000",
+      "hust_handbook_2026:p21:paragraph:0005:token:000",
+      "hust_handbook_2026:p21:paragraph:0004"
+    ],
+    "context_chars": 901,
+    "elapsed_ms": 84.43419996183366,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-05",
+    "split": "dev",
+    "question": "HUST triển khai web và app eHUST từ năm học nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "TIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p22:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.030679156908665108,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p33:paragraph:0004:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 33,
+        "text": "nghệ giáo dục tại Việt Nam. Bắt đầu từ K70, chương trình sẽ bao gồm hai định hướng: Công nghệ và Đào tạo và Multimedia trong giáo dục và truyền thông.\n\nTới nay, Khoa KH&CN Giáo dục đã đào tạo gần 1.000 cử nhân Sư phạm kỹ thuật và",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p33:paragraph:0004",
+          "token_safe_split": true
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p24:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 24,
+        "text": "2. Hỗ trợ, hướng dẫn sinh viên cách sử dụng hệ thống iCTSV (app và web) cũng như làm quen với quy định về Điểm rèn luyện.\n\n3. Chia sẻ, cung cấp thông tin về các hoạt động để sinh viên lựa chọn tham gia.\n\n4. Là một trong các kênh trung gian",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p24:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p22:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 22]\nTIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.\n\n[hust_handbook_2026:p33:paragraph:0004:token:000 | So tay sinh vien_2026.pdf | page 33]\nnghệ giáo dục tại Việt Nam. Bắt đầu từ K70, chương trình sẽ bao gồm hai định hướng: Công nghệ và Đào tạo và Multimedia trong giáo dục và truyền thông.\n\nTới nay, Khoa KH&CN Giáo dục đã đào tạo gần 1.000 cử nhân Sư phạm kỹ thuật và\n\n[hust_handbook_2026:p24:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 24]\n2. Hỗ trợ, hướng dẫn sinh viên cách sử dụng hệ thống iCTSV (app và web) cũng như làm quen với quy định về Điểm rèn luyện.\n\n3. Chia sẻ, cung cấp thông tin về các hoạt động để sinh viên lựa chọn tham gia.\n\n4. Là một trong các kênh trung gian",
+    "context_ids": [
+      "hust_handbook_2026:p22:paragraph:0002:token:001",
+      "hust_handbook_2026:p33:paragraph:0004:token:000",
+      "hust_handbook_2026:p24:paragraph:0002:token:000"
+    ],
+    "context_chars": 954,
+    "elapsed_ms": 85.37799993064255,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-06",
+    "split": "dev",
+    "question": "Ứng dụng eHUST có thể nhắc sinh viên những thông tin gì?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "Ứng dụng eHust cung cấp các chức năng cho cả sinh viên, giảng viên, cán bộ toàn trường. Với ứng dụng này, bạn sẽ có khả năng truy cập và khai thác các thông tin của trường một cách nhanh chóng, dễ dàng và hiệu quả:\n\n- Các thông tin về lớp học, thời khoá biểu\n\n- Tra cứu thông tin giáo viên, sinh viên, học phần, lớp học, lớp sinh viên, …\n\n- Nhắc lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p16:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 16,
+        "text": "01 02 03 04 05 06 Sinh viên cập nhật thông tin về các chương trình học bổng doanh nghiệp trên QLĐT/eHUST Sinh viên hoàn thành form đăng ký online theo hướng dẫn trong thông báo Sinh viên nhận kết quả sơ loại hồ sơ trên QLĐT/eHUST Sinh viên vượt qua vòng hồ sơ online sẽ nhận được email hướng dẫn chuẩn bị hồ sơ bản cứng và nộp hồ sơ theo hướng dẫn Sinh viên nhận kết quả xét học bổng cuối cùng qua email hoặc xem danh sách sinh viên nhận học bổng trên\n\nQLĐT/eHUST",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.029211087420042643,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p8:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 8,
+        "text": "Các thông tin chi tiết: Khối học phần đại cương/cơ sở ngành bắt buộc/tự chọn/ bổ trợ...., điều kiện học tích hợp lên các bậc cao hơn..., điều kiện mỗi học phần và cách đánh giá, các chứng chỉ cần hoàn thành.\n\nMục tiêu học tập Các nguồn lực và điều kiện của bản thân Tối ưu thời gian hoàn thành chương trình học tập Học phần học trước, song hành, tiên quyết Cần lưu ý tới các học phần chỉ mở 1 lần/1 năm\n\nĐĂNG KÝ HỌC PHẦN",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "manual_corrections": [
+            "Đối chiếu trực quan trang PDF: cụm đúng là 'Đánh giá tiến độ'."
+          ]
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p22:paragraph:0004 | So tay sinh vien_2026.pdf | page 22]\nỨng dụng eHust cung cấp các chức năng cho cả sinh viên, giảng viên, cán bộ toàn trường. Với ứng dụng này, bạn sẽ có khả năng truy cập và khai thác các thông tin của trường một cách nhanh chóng, dễ dàng và hiệu quả:\n\n- Các thông tin về lớp học, thời khoá biểu\n\n- Tra cứu thông tin giáo viên, sinh viên, học phần, lớp học, lớp sinh viên, …\n\n- Nhắc lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng.\n\n[hust_handbook_2026:p16:paragraph:0003 | So tay sinh vien_2026.pdf | page 16]\n01 02 03 04 05 06 Sinh viên cập nhật thông tin về các chương trình học bổng doanh nghiệp trên QLĐT/eHUST Sinh viên hoàn thành form đăng ký online theo hướng dẫn trong thông báo Sinh viên nhận kết quả sơ loại hồ sơ trên QLĐT/eHUST Sinh viên vượt qua vòng hồ sơ online sẽ nhận được email hướng dẫn chuẩn bị hồ sơ bản cứng và nộp hồ sơ theo hướng dẫn Sinh viên nhận kết quả xét học bổng cuối cùng qua email hoặc xem danh sách sinh viên nhận học bổng trên\n\nQLĐT/eHUST",
+    "context_ids": [
+      "hust_handbook_2026:p22:paragraph:0004",
+      "hust_handbook_2026:p16:paragraph:0003"
+    ],
+    "context_chars": 1035,
+    "elapsed_ms": 84.03410005848855,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-07",
+    "split": "dev",
+    "question": "Hệ thống sổ tay sinh viên trực tuyến hỗ trợ công việc gì?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p23:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.030621785881252923,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p22:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 22,
+        "text": "TIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p22:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;\n\n[hust_handbook_2026:p23:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 23]\nchung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.\n\n[hust_handbook_2026:p22:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 22]\nTIÊU\n\n43\n\nHỆ THỐNG\n\nQUẢN TRỊ ĐẠI HỌC\n\nTRỰC TUYẾN - eHUST\n\nTừ năm học 2021-2022, Đại học Bách khoa Hà Nội triển khai đưa web Hệ thống quản trị đại học trực tuyến https:/ /e.hust.edu.vn (1 cổng) và app eHUST vào sử dụng.",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0003",
+      "hust_handbook_2026:p23:paragraph:0001:token:001",
+      "hust_handbook_2026:p22:paragraph:0002:token:001"
+    ],
+    "context_chars": 1166,
+    "elapsed_ms": 95.53349995985627,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-08",
+    "split": "dev",
+    "question": "Sinh viên được cấp loại tài khoản nào để truy cập cổng thông tin và đăng ký học phần?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p23:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p14:paragraph:0006:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 14,
+        "text": "số 29/2025/QĐ-TTg của Thủ tướng Chính phủ).\n\nCÁCH THỨC ĐĂNG KÝ CẤP GIẤY VAY VỐN:\n\nSinh viên đăng nhập vào tài khoản cá nhân trên hệ thống cổng thông tin sinh viên eHUST hoặc sổ tay CTSV online để đăng ký nhận giấy vay vốn.",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p14:paragraph:0006",
+          "token_safe_split": true
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p23:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 23]\nchung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đăng ký học phần, đăng ký lớp học, tra cứu điểm, đăng ký học bổng, sử dụng các dịch vụ trực tuyến,… và nhận các thông báo của Trường.\n\n[hust_handbook_2026:p14:paragraph:0006:token:001 | So tay sinh vien_2026.pdf | page 14]\nsố 29/2025/QĐ-TTg của Thủ tướng Chính phủ).\n\nCÁCH THỨC ĐĂNG KÝ CẤP GIẤY VAY VỐN:\n\nSinh viên đăng nhập vào tài khoản cá nhân trên hệ thống cổng thông tin sinh viên eHUST hoặc sổ tay CTSV online để đăng ký nhận giấy vay vốn.\n\n[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+    "context_ids": [
+      "hust_handbook_2026:p23:paragraph:0001:token:001",
+      "hust_handbook_2026:p14:paragraph:0006:token:001",
+      "hust_handbook_2026:p23:paragraph:0003"
+    ],
+    "context_chars": 1170,
+    "elapsed_ms": 93.12909992877394,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-09",
+    "split": "dev",
+    "question": "Đảng ủy Khối các trường ĐH, CĐ Hà Nội nhận hồ sơ chuyển sinh hoạt Đảng vào những buổi nào và trong khung giờ nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0006",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Đảng viên nhận hồ sơ đảng viên từ Huyện ủy và chuyển lên Đảng ủy Khối các trường ĐH – CĐ Hà Nội và làm theo hướng dẫn của cán bộ Ban Tổ chức Đảng ủy Khối.\n\n05 06 07 08 Đảng viên nhận lại hồ sơ đảng viên từ Đảng ủy Khối và gửi về Văn phòng Đảng ủy Đại học Bách Khoa Hà Nội sau đó làm theo hướng dẫn của cán bộ Văn phòng Đảng ủy.\n\nSau khi Văn phòng Đảng ủy kiểm tra, đảng viên được viết giấy giới thiệu về sinh hoạt tại các chi bộ sinh viên tương ứng.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p25:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 25,
+        "text": "Đảng viên nhận hồ sơ Đảng viên từ Đảng ủy phường (xã) nơi cư trú hoặc làm việc, chuyển về Đảng ủy khối các trường ĐH-CĐ Hà Nội tại số 1 Trần Phú, P. Văn Quán, Q.Hà Đông, Tp. Hà Nội (nhà 2C).\n\n03\n\nBƯỚC\n\nĐảng viên nhận lại",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p25:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p25:paragraph:0002",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 25,
+        "text": "- Tiếp nhận và giới thiệu sinh hoạt của các đối tượng Đảng;\n\n- Chuyển sinh hoạt đảng cho sinh viên sau khi tốt nghiệp về địa phương hoặc cơ quan công tác.\n\nLưu ý: Lịch chuyển sinh hoạt đảng tại Đảng ủy Khối các trường ĐH, CĐ Hà Nội. Các buổi sáng Thứ Ba, Thứ Tư và Thứ Năm hàng tuần, từ 8 giờ 30 đến 11 giờ 00.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p26:paragraph:0006 | So tay sinh vien_2026.pdf | page 26]\nĐảng viên nhận hồ sơ đảng viên từ Huyện ủy và chuyển lên Đảng ủy Khối các trường ĐH – CĐ Hà Nội và làm theo hướng dẫn của cán bộ Ban Tổ chức Đảng ủy Khối.\n\n05 06 07 08 Đảng viên nhận lại hồ sơ đảng viên từ Đảng ủy Khối và gửi về Văn phòng Đảng ủy Đại học Bách Khoa Hà Nội sau đó làm theo hướng dẫn của cán bộ Văn phòng Đảng ủy.\n\nSau khi Văn phòng Đảng ủy kiểm tra, đảng viên được viết giấy giới thiệu về sinh hoạt tại các chi bộ sinh viên tương ứng.\n\n[hust_handbook_2026:p25:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 25]\nĐảng viên nhận hồ sơ Đảng viên từ Đảng ủy phường (xã) nơi cư trú hoặc làm việc, chuyển về Đảng ủy khối các trường ĐH-CĐ Hà Nội tại số 1 Trần Phú, P. Văn Quán, Q.Hà Đông, Tp. Hà Nội (nhà 2C).\n\n03\n\nBƯỚC\n\nĐảng viên nhận lại",
+    "context_ids": [
+      "hust_handbook_2026:p26:paragraph:0006",
+      "hust_handbook_2026:p25:paragraph:0001:token:000"
+    ],
+    "context_chars": 837,
+    "elapsed_ms": 78.59040005132556,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-10",
+    "split": "dev",
+    "question": "Chi bộ sinh viên họp chính trị định kỳ với tần suất thế nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Mỗi Chi bộ sẽ chịu sự quản lý của đội ngũ Chi ủy. Cơ cấu tổ chức của Chi ủy Chi bộ sinh viên gồm 1 Bí thư (là cán bộ), 1 Phó bí thư và có 1 đến 3 Chi uỷ viên. Chi bộ Sinh viên có hai mảng hoạt động chính đó là Hoạt động chính trị và hoạt động ngoại khoá chuyên đề. Trong đó: Hoạt động chính trị: Chi bộ sinh viên họp định kỳ mỗi tháng một lần và phụ trách trực tiếp những công tác liên quan đến Phát triển Đảng và chuyển Đảng chính thức của sinh viên.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0004",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Hoạt động ngoại khoá chuyên đề: Bên cạnh các hoạt động chính trị kể trên, Chi bộ sinh viên còn có các hoạt động ngoại khóa chuyên đề mang đậm màu sắc của đảng viên là sinh viên.\n\nHiện nay, Đảng bộ Đại học Bách Khoa có 8 chi bộ sinh viên: Để trở thành đảng viên tại Đại học Bách Khoa Hà Nội, bạn cần phải phấn đấu để có thành tích học tập, rèn luyện tốt và được tín nhiệm giới thiệu của các tổ chức Đoàn – Hội, CLB/Tổ/Đội/Nhóm sinh viên.",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.0315136476426799,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0008:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Quy trình chuyển sinh hoạt từ địa phương đến Đảng bộ Đại học Bách khoa Hà Nội đối với sinh viên là đảng viên (chính thức hoặc dự bị), gồm các bước sau: Sau đó, Đảng viên tham gia sinh hoạt tại chi bộ tại chi bộ sinh",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p26:paragraph:0008",
+          "token_safe_split": true
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p26:paragraph:0003 | So tay sinh vien_2026.pdf | page 26]\nMỗi Chi bộ sẽ chịu sự quản lý của đội ngũ Chi ủy. Cơ cấu tổ chức của Chi ủy Chi bộ sinh viên gồm 1 Bí thư (là cán bộ), 1 Phó bí thư và có 1 đến 3 Chi uỷ viên. Chi bộ Sinh viên có hai mảng hoạt động chính đó là Hoạt động chính trị và hoạt động ngoại khoá chuyên đề. Trong đó: Hoạt động chính trị: Chi bộ sinh viên họp định kỳ mỗi tháng một lần và phụ trách trực tiếp những công tác liên quan đến Phát triển Đảng và chuyển Đảng chính thức của sinh viên.\n\n[hust_handbook_2026:p26:paragraph:0004 | So tay sinh vien_2026.pdf | page 26]\nHoạt động ngoại khoá chuyên đề: Bên cạnh các hoạt động chính trị kể trên, Chi bộ sinh viên còn có các hoạt động ngoại khóa chuyên đề mang đậm màu sắc của đảng viên là sinh viên.\n\nHiện nay, Đảng bộ Đại học Bách Khoa có 8 chi bộ sinh viên: Để trở thành đảng viên tại Đại học Bách Khoa Hà Nội, bạn cần phải phấn đấu để có thành tích học tập, rèn luyện tốt và được tín nhiệm giới thiệu của các tổ chức Đoàn – Hội, CLB/Tổ/Đội/Nhóm sinh viên.",
+    "context_ids": [
+      "hust_handbook_2026:p26:paragraph:0003",
+      "hust_handbook_2026:p26:paragraph:0004"
+    ],
+    "context_chars": 1045,
+    "elapsed_ms": 78.6589999916032,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-11",
+    "split": "dev",
+    "question": "Hội Sinh viên đại diện cho nhóm nào trong trường?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "đến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "Tổ chức các hoạt động hướng đến Sinh viên, hướng đến cộng đồng thông qua các chương trình văn hóa văn nghệ, thể dục thể thao, triển khai phong trào Sinh viên 5 tốt tới toàn thể sinh viên trong trường.\n\n53\n\nHỘI SINH VIÊN",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.03057889822595705,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p27:paragraph:0002:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 27,
+        "text": "024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p27:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 27]\nđến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).\n\n[hust_handbook_2026:p27:paragraph:0003 | So tay sinh vien_2026.pdf | page 27]\nTổ chức các hoạt động hướng đến Sinh viên, hướng đến cộng đồng thông qua các chương trình văn hóa văn nghệ, thể dục thể thao, triển khai phong trào Sinh viên 5 tốt tới toàn thể sinh viên trong trường.\n\n53\n\nHỘI SINH VIÊN\n\n[hust_handbook_2026:p27:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 27]\n024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+    "context_ids": [
+      "hust_handbook_2026:p27:paragraph:0002:token:001",
+      "hust_handbook_2026:p27:paragraph:0003",
+      "hust_handbook_2026:p27:paragraph:0002:token:000"
+    ],
+    "context_chars": 909,
+    "elapsed_ms": 76.77299994975328,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-12",
+    "split": "dev",
+    "question": "Sổ tay mô tả nhiệm vụ chính của Ban Công tác Sinh viên đối với người học là gì?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p17:paragraph:0005",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 17,
+        "text": "Hết thời gian đăng ký, Ban Công tác sinh viên tổng hợp danh sách và báo cáo Hội đồng xét, cấp học bổng trao đổi sinh viên để họp xét.\n\nBan Công tác sinh viên làm hồ sơ báo cáo Giám đốc đại học ra quyết định cấp học bổng cho sinh viên.\n\nMỤC ĐÍCH CỦA HỌC BỔNG\n\nThực hiện trách nhiệm của ĐHBK Hà Nội đối với xã hội trong công tác đào tạo nguồn nhân lực chất lượng cao phục vụ cho quá trình công nghiệp hóa, hiện đại hóa đất nước.",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p23:paragraph:0003",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "Hệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+        "metadata": {
+          "section": "quy_che_quy_dinh"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p28:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 28,
+        "text": "BAN - TRUNG TÂM\n\nBAN - TRUNG TÂM\n\nPHẦN 3\n\n54 55 Quản lý, tư vấn và hỗ trợ người học; tạo điều kiện, hỗ trợ người học, đặc biệt người học yếu thế (người học có hoàn cảnh khó khăn hoặc có hoàn cảnh đặc biệt) phát huy tối đa năng lực và",
+        "metadata": {
+          "section": "ban_trung_tam",
+          "parent_chunk_id": "hust_handbook_2026:p28:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": true
+      }
+    ],
+    "context": "[hust_handbook_2026:p17:paragraph:0005 | So tay sinh vien_2026.pdf | page 17]\nHết thời gian đăng ký, Ban Công tác sinh viên tổng hợp danh sách và báo cáo Hội đồng xét, cấp học bổng trao đổi sinh viên để họp xét.\n\nBan Công tác sinh viên làm hồ sơ báo cáo Giám đốc đại học ra quyết định cấp học bổng cho sinh viên.\n\nMỤC ĐÍCH CỦA HỌC BỔNG\n\nThực hiện trách nhiệm của ĐHBK Hà Nội đối với xã hội trong công tác đào tạo nguồn nhân lực chất lượng cao phục vụ cho quá trình công nghiệp hóa, hiện đại hóa đất nước.\n\n[hust_handbook_2026:p23:paragraph:0003 | So tay sinh vien_2026.pdf | page 23]\nHệ thống sổ tay sinh viên trực tuyến (online): bộ công cụ hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên. Hệ thống sổ tay công tác sinh viên gồm website (được liên kết với Cổng thông tin www.ctt.hust.edu.vn) và ứng dụng di động, hỗ trợ các cá nhân có trách nhiệm:\n\n1. Đăng ký và cập nhật thông tin tài khoản;\n\n2. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan;\n\n3. Công bố hoạt động, tiếp nhận đăng ký tham gia nhóm và hoạt động;",
+    "context_ids": [
+      "hust_handbook_2026:p17:paragraph:0005",
+      "hust_handbook_2026:p23:paragraph:0003"
+    ],
+    "context_chars": 1028,
+    "elapsed_ms": 76.68709999416023,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-13",
+    "split": "dev",
+    "question": "Văn phòng Quản lý ký túc xá được ghi ở địa chỉ nào?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p46:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 46,
+        "text": "90 Ở trọ\n\nKHÔNG CÒN\n\nLÀ NỖI LO\n\n91\n\nKÝ TÚC XÁ\n\nBÁCH KHOA\n\nKý túc xá Bách Khoa hiện nay đang áp dụng Hệ thống Ký túc xá trực tuyến CSAM- HUST hiện đại để tạo thuận lợi cho sinh viên trong quá trình lưu trú:\n\n- Đăng",
+        "metadata": {
+          "section": "chia_se_kinh_nghiem",
+          "parent_chunk_id": "hust_handbook_2026:p46:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0009:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Địa chỉ làm việc và thông tin liên hệ: Phòng chuyển sinh hoạt đảng tại Đảng ủy Khối các trường ĐH, CĐ Hà Nội Lịch làm việc: Giờ hành chính Địa chỉ: Phòng 106 nhà 2C – Trụ sở Thành ủy Hà Nội, số 219 Trần Phú, quận Hà Đông,",
+        "metadata": {
+          "section": "doan_hoi",
+          "parent_chunk_id": "hust_handbook_2026:p26:paragraph:0009",
+          "token_safe_split": true
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p26:paragraph:0010",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 26,
+        "text": "Địa chỉ: Phòng 203 – C2, Đại học Bách khoa Hà Nội Số điện thoại: 024.3869 2743",
+        "metadata": {
+          "section": "doan_hoi"
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p46:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 46]\n90 Ở trọ\n\nKHÔNG CÒN\n\nLÀ NỖI LO\n\n91\n\nKÝ TÚC XÁ\n\nBÁCH KHOA\n\nKý túc xá Bách Khoa hiện nay đang áp dụng Hệ thống Ký túc xá trực tuyến CSAM- HUST hiện đại để tạo thuận lợi cho sinh viên trong quá trình lưu trú:\n\n- Đăng\n\n[hust_handbook_2026:p26:paragraph:0009:token:000 | So tay sinh vien_2026.pdf | page 26]\nĐịa chỉ làm việc và thông tin liên hệ: Phòng chuyển sinh hoạt đảng tại Đảng ủy Khối các trường ĐH, CĐ Hà Nội Lịch làm việc: Giờ hành chính Địa chỉ: Phòng 106 nhà 2C – Trụ sở Thành ủy Hà Nội, số 219 Trần Phú, quận Hà Đông,\n\n[hust_handbook_2026:p26:paragraph:0010 | So tay sinh vien_2026.pdf | page 26]\nĐịa chỉ: Phòng 203 – C2, Đại học Bách khoa Hà Nội Số điện thoại: 024.3869 2743",
+    "context_ids": [
+      "hust_handbook_2026:p46:paragraph:0000:token:000",
+      "hust_handbook_2026:p26:paragraph:0009:token:000",
+      "hust_handbook_2026:p26:paragraph:0010"
+    ],
+    "context_chars": 770,
+    "elapsed_ms": 63.99379996582866,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "d7-dev-14",
+    "split": "dev",
+    "question": "Trường Cơ khí có bao nhiêu chương trình đào tạo theo sổ tay?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p30:paragraph:0001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 30,
+        "text": "Đội ngũ cán bộ, giảng viên có 300 người.\n\nTrường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT).",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0000:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p7:paragraph:0000",
+          "token_safe_split": true
+        },
+        "score": 0.031544957774465976,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p7:paragraph:0001:token:000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "+ Định hướng nghiên cứu phát triển Cấp bằng Thạc sĩ 1,5 năm Xét tuyển 1.5 năm Xét tuyển Đào tạo tiến sĩ\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo đều được được xây dựng phù hợp với các quy định của luật Giáo",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p7:paragraph:0001",
+          "token_safe_split": true
+        },
+        "score": 0.029437229437229435,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p30:paragraph:0001 | So tay sinh vien_2026.pdf | page 30]\nĐội ngũ cán bộ, giảng viên có 300 người.\n\nTrường Cơ khí, ĐHBK Hà Nội hiện có 4 Khoa đào tạo 06 nhóm ngành và 13 Chương trình đào tạo (CTĐT).\n\n[hust_handbook_2026:p7:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 7]\n12 13\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn).\n\nMô đun\n\n[hust_handbook_2026:p7:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 7]\n+ Định hướng nghiên cứu phát triển Cấp bằng Thạc sĩ 1,5 năm Xét tuyển 1.5 năm Xét tuyển Đào tạo tiến sĩ\n\nMÔ HÌNH VÀ CHƯƠNG\n\nTRÌNH ĐÀO TẠO TÍCH\n\nHỢP HỆ CHÍNH QUY\n\nCác chương trình đào tạo đều được được xây dựng phù hợp với các quy định của luật Giáo",
+    "context_ids": [
+      "hust_handbook_2026:p30:paragraph:0001",
+      "hust_handbook_2026:p7:paragraph:0000:token:000",
+      "hust_handbook_2026:p7:paragraph:0001:token:000"
+    ],
+    "context_chars": 858,
+    "elapsed_ms": 68.01400007680058,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "d7-dev-15",
+    "split": "dev",
+    "question": "Trường Điện – Điện tử gồm những đơn vị đào tạo và nghiên cứu nào theo phần giới thiệu?",
+    "method": "hybrid_rrf",
+    "top_k": 3,
+    "budget_chars": 1200,
+    "results": [
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "trong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y",
+        "metadata": {
+          "section": "truong_khoa",
+          "parent_chunk_id": "hust_handbook_2026:p31:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid_rrf",
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "hust_handbook_2026:p31:paragraph:0000",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "60\n\nTRƯỜNG\n\nĐIỆN - ĐIỆN TỬ\n\nSCHOOL OF ELECTRICAL AND ELECTRONICS ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nBao gồm 4 khoa, 1 trung tâm đào tạo thực hành & 1 viện nghiên cứu.\n\n235 CB giảng viên, trong đó có 3 Giáo sư, 52 Phó giáo sư, 106 Tiến sĩ. Hầu hết là các giảng viên được đào tạo bài bản tại các nước tiên tiến trên thế giới.",
+        "metadata": {
+          "section": "truong_khoa"
+        },
+        "score": 0.03149801587301587,
+        "strategy": "hybrid_rrf",
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "hust_handbook_2026:p12:paragraph:0002:token:001",
+        "source_id": "hust_handbook_2026",
+        "source": "So tay sinh vien_2026.pdf",
+        "page": 12,
+        "text": "thiết bị điện tử có thể kết nối mạng internet vào phòng thi các kỳ thi giữa kì và cuối kỳ.\n\nChi tiết thông tin tại đây 23\n\nCÂU LẠC BỘ SINH VIÊN\n\nCLB học thuật, nghiên cứu khoa học...\n\nCLB - LAB NGHIÊN CỨU & SÁNG TẠO",
+        "metadata": {
+          "section": "quy_che_quy_dinh",
+          "parent_chunk_id": "hust_handbook_2026:p12:paragraph:0002",
+          "token_safe_split": true
+        },
+        "score": 0.030536130536130537,
+        "strategy": "hybrid_rrf",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[hust_handbook_2026:p31:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 31]\ntrong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y\n\n[hust_handbook_2026:p31:paragraph:0000 | So tay sinh vien_2026.pdf | page 31]\n60\n\nTRƯỜNG\n\nĐIỆN - ĐIỆN TỬ\n\nSCHOOL OF ELECTRICAL AND ELECTRONICS ENGINEERING\n\nCÁN BỘ\n\nGIẢNG VIÊN\n\nBAN CỐ VẤN\n\nHỌC TẬP\n\nBao gồm 4 khoa, 1 trung tâm đào tạo thực hành & 1 viện nghiên cứu.\n\n235 CB giảng viên, trong đó có 3 Giáo sư, 52 Phó giáo sư, 106 Tiến sĩ. Hầu hết là các giảng viên được đào tạo bài bản tại các nước tiên tiến trên thế giới.\n\n[hust_handbook_2026:p12:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 12]\nthiết bị điện tử có thể kết nối mạng internet vào phòng thi các kỳ thi giữa kì và cuối kỳ.\n\nChi tiết thông tin tại đây 23\n\nCÂU LẠC BỘ SINH VIÊN\n\nCLB học thuật, nghiên cứu khoa học...\n\nCLB - LAB NGHIÊN CỨU & SÁNG TẠO",
+    "context_ids": [
+      "hust_handbook_2026:p31:paragraph:0002:token:001",
+      "hust_handbook_2026:p31:paragraph:0000",
+      "hust_handbook_2026:p12:paragraph:0002:token:001"
+    ],
+    "context_chars": 1066,
+    "elapsed_ms": 68.85099993087351,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "split": "test",
+  "retriever_mode": "tfidf",
+  "agent_model": "gpt-4o-mini",
+  "context_budget_chars": 1600,
+  "manual_review": {
+    "answerable_context_grades": {
+      "0": 0,
+      "1": 1,
+      "2": 4
+    },
+    "mean_context_grade": 1.8,
+    "per_citation_support": {
+      "valid": 3,
+      "total": 4
+    },
+    "citation_support_by_query": 3,
+    "manual_labels": [
+      {
+        "query_id": "d7-test-01",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Cần nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó vì chỉ khi có nền tảng vững chắc, bạn mới có thể trả lời được những câu hỏi khó hơn. Việc bám sát kiến thức cơ bản giúp tránh sa đà vào thông tin không liên quan và củng cố khả năng giải quyết vấn đề [hust_handbook_2026:p41:paragraph:0005].",
+        "citations": [
+          "hust_handbook_2026:p41:paragraph:0005"
+        ],
+        "citation_support": [
+          false
+        ],
+        "answer_grade": 1,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 6342.69,
+        "notes": "Core reason is correct; the answer adds an unsupported claim about problem-solving ability."
+      },
+      {
+        "query_id": "d7-test-02",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Đề cương và đề thi các năm trước có sẵn tại thư viện Tạ Quang Bửu [hust_handbook_2026:p42:paragraph:0000:token:000].",
+        "citations": [
+          "hust_handbook_2026:p42:paragraph:0000:token:000"
+        ],
+        "citation_support": [
+          true
+        ],
+        "answer_grade": 2,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 4655.25,
+        "notes": "The cited page 42 chunk states the booklets and past exams are available at the library."
+      },
+      {
+        "query_id": "d7-test-03",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Học với bạn cùng lứa giúp việc tiếp cận kiến thức dễ hiểu hơn nhờ vào việc họ có ngôn từ và cách diễn đạt đơn giản, dễ hiểu, cùng với những mẹo để ghi nhớ lâu hơn [hust_handbook_2026:p43:paragraph:0000:token:001].",
+        "citations": [
+          "hust_handbook_2026:p43:paragraph:0000:token:001"
+        ],
+        "citation_support": [
+          true
+        ],
+        "answer_grade": 2,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 4566.04,
+        "notes": "The cited chunk directly supports simpler, easier-to-understand peer explanations and memory tips."
+      },
+      {
+        "query_id": "d7-test-04",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Tỷ lệ thành công gắn với kiến thức chuyên môn là 15%, trong khi tỷ lệ gắn với kỹ năng mềm là 85% [hust_handbook_2026:p44:paragraph:0002].",
+        "citations": [
+          "hust_handbook_2026:p44:paragraph:0002"
+        ],
+        "citation_support": [
+          true
+        ],
+        "answer_grade": 2,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 3980.55,
+        "notes": "The cited chunk directly gives the 15% and 85% figures."
+      },
+      {
+        "query_id": "d7-test-05",
+        "answerable": true,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": 0,
+        "context_grade": 1,
+        "tool_calls": 1,
+        "elapsed_ms": 6204.81,
+        "notes": "The context contains related project-planning skills, but misses the requested event-planning, finance and coordination evidence."
+      },
+      {
+        "query_id": "d7-test-u01",
+        "answerable": false,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": null,
+        "context_grade": null,
+        "tool_calls": 2,
+        "elapsed_ms": 4865.35,
+        "notes": "Correctly abstains; the corpus has no official per-credit tuition for that school/year."
+      },
+      {
+        "query_id": "d7-test-u02",
+        "answerable": false,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": null,
+        "context_grade": null,
+        "tool_calls": 2,
+        "elapsed_ms": 4923.12,
+        "notes": "Correctly abstains; the corpus gives no study-room seating capacity."
+      }
+    ]
+  }
+}

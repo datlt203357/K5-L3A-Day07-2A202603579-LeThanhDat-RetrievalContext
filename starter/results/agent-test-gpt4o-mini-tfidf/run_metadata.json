@@ -1,0 +1,22 @@
+{
+  "split": "test",
+  "agent_model": "gpt-4o-mini",
+  "base_url": "https://api.shopaikey.com/v1",
+  "retriever": "TF-IDF lexical baseline",
+  "retriever_mode": "tfidf",
+  "embedding_model": null,
+  "embedding_dimensions": null,
+  "candidate_k": 3,
+  "rrf_k": null,
+  "max_searches": 2,
+  "top_k": 3,
+  "context_budget_chars": 1600,
+  "cases": 7,
+  "api_usage": {
+    "prompt_tokens": 12300,
+    "completion_tokens": 756,
+    "total_tokens": 13056,
+    "cost_usd": null,
+    "cost_note": "Use the model and key-group pricing shown in the provider account; the script does not guess the billed rate."
+  }
+}

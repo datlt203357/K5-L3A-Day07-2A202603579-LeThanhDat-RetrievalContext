@@ -1,0 +1,791 @@
+[
+  {
+    "query_id": "d7-test-01",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0004",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "Hệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 42,
+            "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p42:paragraph:0000:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 42,
+            "text": "82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p41:paragraph:0004 | So tay sinh vien_2026.pdf | page 41]\nHệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ\n\n[hust_handbook_2026:p42:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 42]\n82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+        "context_ids": [
+          "hust_handbook_2026:p41:paragraph:0004",
+          "hust_handbook_2026:p42:paragraph:0000:token:001",
+          "hust_handbook_2026:p42:paragraph:0000:token:000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "tại sao cần nắm chắc kiến thức cơ bản trước khi làm câu hỏi khó",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0004",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "Hệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 42,
+            "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p42:paragraph:0000:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 42,
+            "text": "82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03225806451612903,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p41:paragraph:0004 | So tay sinh vien_2026.pdf | page 41]\nHệ thống kiến thức là chưa đủ nếu bạn không luyện tập. Hãy sử dụng chính những công thức mình vừa tổng hợp được để làm bài tập. Ôn đến công thức nào, hãy làm chắc dạng bài có công thức đó. Bài tập nào sức mình làm được thì ôn trước, để đi thi chắc chắn sẽ được điểm.\n\nBÁM SÁT SÁCH GIÁO TRÌNH\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ\n\n[hust_handbook_2026:p42:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 42]\n82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+        "context_ids": [
+          "hust_handbook_2026:p41:paragraph:0004",
+          "hust_handbook_2026:p42:paragraph:0000:token:001",
+          "hust_handbook_2026:p42:paragraph:0000:token:000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 6445.7,
+    "usage": [
+      {
+        "prompt_tokens": 461,
+        "completion_tokens": 28,
+        "total_tokens": 489
+      },
+      {
+        "prompt_tokens": 857,
+        "completion_tokens": 32,
+        "total_tokens": 889
+      },
+      {
+        "prompt_tokens": 874,
+        "completion_tokens": 32,
+        "total_tokens": 906
+      }
+    ]
+  },
+  {
+    "query_id": "d7-test-02",
+    "split": "test",
+    "status": "answered",
+    "answer": "Đề cương và đề thi các năm trước có sẵn tại thư viện Tạ Quang Bửu [hust_handbook_2026:p42:paragraph:0000:token:000].[hust_handbook_2026:p42:paragraph:0000:token:001]",
+    "citations": [
+      "hust_handbook_2026:p42:paragraph:0000:token:000",
+      "hust_handbook_2026:p42:paragraph:0000:token:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "đề cương và đề thi các năm trước có sẵn ở đâu",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p42:paragraph:0000:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 42,
+            "text": "82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p42:paragraph:0000:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 42,
+            "text": "những nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p42:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf_sibling"
+          },
+          {
+            "id": "hust_handbook_2026:p40:paragraph:0002:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 40,
+            "text": "Đầu tiên là phải qua được thí nghiệm (đi làm thí nghiệm đủ + chuẩn bị bài chu đáo + học và làm báo cáo tốt + may mắn). Bài thi cuối kỳ gồm 50% lý thuyết và 50% trắc nghiệm, các bạn nên tham khảo thêm tài liệu thi của các năm trước.\n\nTIN HỌC",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p40:paragraph:0002",
+              "token_safe_split": true
+            },
+            "score": 0.029437229437229435,
+            "strategy": "hybrid_rrf"
+          }
+        ],
+        "context": "[hust_handbook_2026:p42:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 42]\n82\n\nĐỀ VỀ!\n\nĐề cương, đề thi các năm trước luôn sẵn sàng phục vụ các sĩ tử tại thư viện Tạ Quang Bửu. Đề thi chứa các nội dung kiến thức đầy đủ và tổng quát nhất, vì vậy đây cũng là bí quyết ôn thi hiệu quả nhất. Học sinh không\n\n[hust_handbook_2026:p42:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 42]\nnhững nắm được các kiến thức đã học, bổ sung những kiến thức còn thiếu mà còn nắm bắt được các thủ thuật làm bài thi sao cho nhanh và chính xác nhất. Đây cũng là cách rèn luyện sự tự tin trước mỗi kỳ thi.\n\nPHÂN BỔ THỜI GIAN HỢP LÝ\n\n[hust_handbook_2026:p40:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 40]\nĐầu tiên là phải qua được thí nghiệm (đi làm thí nghiệm đủ + chuẩn bị bài chu đáo + học và làm báo cáo tốt + may mắn). Bài thi cuối kỳ gồm 50% lý thuyết và 50% trắc nghiệm, các bạn nên tham khảo thêm tài liệu thi của các năm trước.\n\nTIN HỌC",
+        "context_ids": [
+          "hust_handbook_2026:p42:paragraph:0000:token:000",
+          "hust_handbook_2026:p42:paragraph:0000:token:001",
+          "hust_handbook_2026:p40:paragraph:0002:token:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4614.62,
+    "usage": [
+      {
+        "prompt_tokens": 454,
+        "completion_tokens": 30,
+        "total_tokens": 484
+      },
+      {
+        "prompt_tokens": 846,
+        "completion_tokens": 45,
+        "total_tokens": 891
+      }
+    ]
+  },
+  {
+    "query_id": "d7-test-03",
+    "split": "test",
+    "status": "answered",
+    "answer": "Học với bạn cùng lứa có thể giúp việc tiếp cận kiến thức dễ hiểu hơn nhờ vào ngôn từ và cách diễn đạt đơn giản, gần gũi. Bạn cùng lứa có thể cung cấp những mẹo và cách diễn đạt độc đáo, giúp ghi nhớ kiến thức lâu hơn. Ngoài ra, việc học nhóm còn tạo ra những tình huống vui vẻ, như những tràng cười khi mắc lỗi, giúp bạn nhớ kiến thức một cách sâu sắc hơn [hust_handbook_2026:p43:paragraph:0000:token:001][hust_handbook_2026:p43:paragraph:0000:token:000].",
+    "citations": [
+      "hust_handbook_2026:p43:paragraph:0000:token:001",
+      "hust_handbook_2026:p43:paragraph:0000:token:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "học với bạn cùng lứa tiếp cận kiến thức",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0005",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "Một tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem"
+            },
+            "score": 0.0304147465437788,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p43:paragraph:0000:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 43,
+            "text": "nữa.\n\nCÁCH TIẾP CẬN MỚI LẠ VÀ DỄ HIỂU HƠN\n\nChính với cùng lứa tuổi mình mới có ngôn từ và ngôn ngữ diễn tả cho ta một cách đơn giản hơn, dễ hiểu hơn và có vài cái diễn đạt “độc” và “mẹo” để mà nhớ lâu nữa chứ.\n\nHỌC HỎI TỪ BẠN CỦA MÌNH",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p43:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p43:paragraph:0000:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 43,
+            "text": "84 01 02 03 04 05\n\nLỢI ÍCH\n\nCỦA HỌC NHÓM\n\nNHỚ LÂU KIẾN THỨC\n\nThông qua những tràng cười của những đứa bạn mình khi mình sai. Những tràng cười đó sẽ khiến bạn nhớ dai và nhớ dại, nhớ đến điên đảo để lần sau không còn dính cái sai đó",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p43:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p41:paragraph:0005 | So tay sinh vien_2026.pdf | page 41]\nMột tình trạng thường thấy ở các bạn sinh viên là sử dụng không đúng cách công cụ tìm kiếm trên mạng mà dẫn đến sa đà, đi quá xa so với kiến thức đang học. Hãy ghi nhớ luôn bám sát kiến thức cơ bản, kiến thức trong sách giáo trình, sách bài tập và cả lời thầy cô giảng trên lớp.\n\nChỉ khi nắm được kiến thức cơ bản, bạn mới có thể trả lời được những câu hỏi khó hơn.\n\nHỌC NHÓM\n\n[hust_handbook_2026:p43:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 43]\nnữa.\n\nCÁCH TIẾP CẬN MỚI LẠ VÀ DỄ HIỂU HƠN\n\nChính với cùng lứa tuổi mình mới có ngôn từ và ngôn ngữ diễn tả cho ta một cách đơn giản hơn, dễ hiểu hơn và có vài cái diễn đạt “độc” và “mẹo” để mà nhớ lâu nữa chứ.\n\nHỌC HỎI TỪ BẠN CỦA MÌNH\n\n[hust_handbook_2026:p43:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 43]\n84 01 02 03 04 05\n\nLỢI ÍCH\n\nCỦA HỌC NHÓM\n\nNHỚ LÂU KIẾN THỨC\n\nThông qua những tràng cười của những đứa bạn mình khi mình sai. Những tràng cười đó sẽ khiến bạn nhớ dai và nhớ dại, nhớ đến điên đảo để lần sau không còn dính cái sai đó",
+        "context_ids": [
+          "hust_handbook_2026:p41:paragraph:0005",
+          "hust_handbook_2026:p43:paragraph:0000:token:001",
+          "hust_handbook_2026:p43:paragraph:0000:token:000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 5562.95,
+    "usage": [
+      {
+        "prompt_tokens": 456,
+        "completion_tokens": 27,
+        "total_tokens": 483
+      },
+      {
+        "prompt_tokens": 919,
+        "completion_tokens": 142,
+        "total_tokens": 1061
+      }
+    ]
+  },
+  {
+    "query_id": "d7-test-04",
+    "split": "test",
+    "status": "answered",
+    "answer": "Tỷ lệ thành công gắn với kiến thức chuyên môn là 15%, trong khi tỷ lệ gắn với kỹ năng mềm là 85% [hust_handbook_2026:p44:paragraph:0002].",
+    "citations": [
+      "hust_handbook_2026:p44:paragraph:0002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "tỷ lệ thành công kiến thức chuyên môn kỹ năng mềm",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p44:paragraph:0002",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 44,
+            "text": "Thực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p20:paragraph:0001:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 20,
+            "text": "Hàng kỳ, nhà trường tổ chức các khóa học kỹ năng mềm, kỹ năng nghề nghiệp, các buổi tọa đàm, hội thảo giúp sinh viên nâng cao kỹ năng mềm với sự tham gia của các giảng viên, các chuyên gia, nhà tuyển dụng đến từ doanh nghiệp và các đối tác khác của",
+            "metadata": {
+              "section": "quy_che_quy_dinh",
+              "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+              "token_safe_split": true
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p20:paragraph:0001:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 20,
+            "text": "nhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+            "metadata": {
+              "section": "quy_che_quy_dinh",
+              "parent_chunk_id": "hust_handbook_2026:p20:paragraph:0001",
+              "token_safe_split": true
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p44:paragraph:0002 | So tay sinh vien_2026.pdf | page 44]\nThực tế cho thấy người thành đạt chỉ có 15% là do những kiến thức chuyên môn, 85% còn lại được quyết định bởi những kỹ năng mềm họ được trang bị (theo Wikipedia). Các công ty luôn coi trọng các kỹ năng “mềm”, bởi vì các nghiên cứu cho thấy chúng là một nhân tố đánh giá rất hiệu quả bên cạnh những kỹ năng công việc truyền thống hay còn gọi là kỹ năng “cứng”.\n\n87\n\n[hust_handbook_2026:p20:paragraph:0001:token:000 | So tay sinh vien_2026.pdf | page 20]\nHàng kỳ, nhà trường tổ chức các khóa học kỹ năng mềm, kỹ năng nghề nghiệp, các buổi tọa đàm, hội thảo giúp sinh viên nâng cao kỹ năng mềm với sự tham gia của các giảng viên, các chuyên gia, nhà tuyển dụng đến từ doanh nghiệp và các đối tác khác của\n\n[hust_handbook_2026:p20:paragraph:0001:token:001 | So tay sinh vien_2026.pdf | page 20]\nnhà trường.\n\nMột số kỹ năng được giảng dạy bao gồm (danh sách kỹ năng thường xuyên được cập nhật): Kỹ năng thuyết trình.\n\nKỹ năng viết CV.\n\nKỹ năng xây dựng thương hiệu cá nhân.\n\nKỹ năng làm việc hiệu quả.\n\nKỹ năng làm việc nhóm, giải quyết vấn đề.",
+        "context_ids": [
+          "hust_handbook_2026:p44:paragraph:0002",
+          "hust_handbook_2026:p20:paragraph:0001:token:000",
+          "hust_handbook_2026:p20:paragraph:0001:token:001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 4481.14,
+    "usage": [
+      {
+        "prompt_tokens": 464,
+        "completion_tokens": 27,
+        "total_tokens": 491
+      },
+      {
+        "prompt_tokens": 862,
+        "completion_tokens": 48,
+        "total_tokens": 910
+      }
+    ]
+  },
+  {
+    "query_id": "d7-test-05",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "kỹ năng sinh viên tổ chức sinh viên",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p19:paragraph:0001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 19,
+            "text": "Nhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP",
+            "metadata": {
+              "section": "quy_che_quy_dinh"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p27:paragraph:0002:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 27,
+            "text": "đến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).",
+            "metadata": {
+              "section": "doan_hoi",
+              "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+              "token_safe_split": true
+            },
+            "score": 0.031009615384615385,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p27:paragraph:0002:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 27,
+            "text": "024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+            "metadata": {
+              "section": "doan_hoi",
+              "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+              "token_safe_split": true
+            },
+            "score": 0.031009615384615385,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p19:paragraph:0001 | So tay sinh vien_2026.pdf | page 19]\nNhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP\n\n[hust_handbook_2026:p27:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 27]\nđến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).\n\n[hust_handbook_2026:p27:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 27]\n024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+        "context_ids": [
+          "hust_handbook_2026:p19:paragraph:0001",
+          "hust_handbook_2026:p27:paragraph:0002:token:001",
+          "hust_handbook_2026:p27:paragraph:0002:token:000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "kỹ năng sinh viên tổ chức sinh viên",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p19:paragraph:0001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 19,
+            "text": "Nhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP",
+            "metadata": {
+              "section": "quy_che_quy_dinh"
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p27:paragraph:0002:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 27,
+            "text": "đến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).",
+            "metadata": {
+              "section": "doan_hoi",
+              "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+              "token_safe_split": true
+            },
+            "score": 0.031009615384615385,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p27:paragraph:0002:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 27,
+            "text": "024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+            "metadata": {
+              "section": "doan_hoi",
+              "parent_chunk_id": "hust_handbook_2026:p27:paragraph:0002",
+              "token_safe_split": true
+            },
+            "score": 0.031009615384615385,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p19:paragraph:0001 | So tay sinh vien_2026.pdf | page 19]\nNhà trường cũng thường xuyên tổ chức các chương trình đào tạo kỹ năng mềm, kỹ năng nghề nghiệp cho sinh viên như: Kỹ năng làm việc nhóm, kỹ năng lập kế hoạch và triển khai dự án, hướng dẫn viết đơn xin việc, sơ yếu lí lịch, kỹ năng trả lời phỏng vấn trực tiếp,…\n\nTƯ VẤN HƯỚNG NGHIỆP\n\nVÀ ĐÀO TẠO KỸ NĂNG\n\nTHỰC TẾ, THỰC TẬP DOANH NGHIỆP\n\n[hust_handbook_2026:p27:paragraph:0002:token:001 | So tay sinh vien_2026.pdf | page 27]\nđến sinh viên.\n\nHội Sinh viên là tổ chức chính trị - xã hội dành cho sinh viên, đại diện cho sinh viên toàn trường.\n\nHỗ trợ tư vấn cho Hội viên – Sinh viên về phương pháp học tập, đời sống xã hội (việc làm, nhà trọ,…).\n\n[hust_handbook_2026:p27:paragraph:0002:token:000 | So tay sinh vien_2026.pdf | page 27]\n024. 3869 6166 hsv@hust.edu.vn fb.com/hoisinhvienbkhn Là cầu nối giữa sinh viên với lãnh đạo nhà trường, phản ánh nhu cầu, nguyện vọng của sinh viên, tham gia phản biện, đề xuất các chủ trương, chính sách liên quan",
+        "context_ids": [
+          "hust_handbook_2026:p19:paragraph:0001",
+          "hust_handbook_2026:p27:paragraph:0002:token:001",
+          "hust_handbook_2026:p27:paragraph:0002:token:000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 5205.81,
+    "usage": [
+      {
+        "prompt_tokens": 455,
+        "completion_tokens": 24,
+        "total_tokens": 479
+      },
+      {
+        "prompt_tokens": 859,
+        "completion_tokens": 24,
+        "total_tokens": 883
+      },
+      {
+        "prompt_tokens": 868,
+        "completion_tokens": 27,
+        "total_tokens": 895
+      }
+    ]
+  },
+  {
+    "query_id": "d7-test-u01",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "học phí chính thức trên mỗi tín chỉ Trường Cơ khí năm học 2026–2027",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p14:paragraph:0010",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 14,
+            "text": "ĐỊNH MỨC VAY: toàn bộ tiền học phí phải đóng của theo xác nhận của ĐHBK Hà Nội và tiền sinh hoạt phí và chi phí học tập khác tối đa là 5 triệu đồng/tháng.",
+            "metadata": {
+              "section": "quy_che_quy_dinh"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p17:paragraph:0003:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 17,
+            "text": "cho sinh viên xếp hạng trình độ năm học từ năm thứ 3 trở đi có CPA ≥ 3.2, ĐRL tích lũy ≥ 80, có trình độ ngoại ngữ và môn đăng ký học tập/ thực tập phù hợp.\n\nHọc bổng có giá trị tối đa là 30 triệu đồng/sinh viên.",
+            "metadata": {
+              "section": "quy_che_quy_dinh",
+              "parent_chunk_id": "hust_handbook_2026:p17:paragraph:0003",
+              "token_safe_split": true
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p17:paragraph:0003:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 17,
+            "text": "Không xét, cấp học bổng Trần Đại Nghĩa cho sinh viên diện chế độ chính sách được miễn, giảm học phí theo quy định của Nhà nước.\n\nHỌC BỔNG\n\nTRAO ĐỔI SINH VIÊN\n\nĐỐI TƯỢNG HỌC BỔNG MỨC HỌC BỔNG\n\nHọc bổng xét cấp",
+            "metadata": {
+              "section": "quy_che_quy_dinh",
+              "parent_chunk_id": "hust_handbook_2026:p17:paragraph:0003",
+              "token_safe_split": true
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p14:paragraph:0010 | So tay sinh vien_2026.pdf | page 14]\nĐỊNH MỨC VAY: toàn bộ tiền học phí phải đóng của theo xác nhận của ĐHBK Hà Nội và tiền sinh hoạt phí và chi phí học tập khác tối đa là 5 triệu đồng/tháng.\n\n[hust_handbook_2026:p17:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 17]\ncho sinh viên xếp hạng trình độ năm học từ năm thứ 3 trở đi có CPA ≥ 3.2, ĐRL tích lũy ≥ 80, có trình độ ngoại ngữ và môn đăng ký học tập/ thực tập phù hợp.\n\nHọc bổng có giá trị tối đa là 30 triệu đồng/sinh viên.\n\n[hust_handbook_2026:p17:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 17]\nKhông xét, cấp học bổng Trần Đại Nghĩa cho sinh viên diện chế độ chính sách được miễn, giảm học phí theo quy định của Nhà nước.\n\nHỌC BỔNG\n\nTRAO ĐỔI SINH VIÊN\n\nĐỐI TƯỢNG HỌC BỔNG MỨC HỌC BỔNG\n\nHọc bổng xét cấp",
+        "context_ids": [
+          "hust_handbook_2026:p14:paragraph:0010",
+          "hust_handbook_2026:p17:paragraph:0003:token:001",
+          "hust_handbook_2026:p17:paragraph:0003:token:000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "học phí trên mỗi tín chỉ Trường Cơ khí năm học 2026–2027",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p3:paragraph:0000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 3,
+            "text": "4 5\n\nTHÔNG ĐIỆP\n\nNĂM HỌC 2026 - 2027",
+            "metadata": {
+              "section": "gioi_thieu"
+            },
+            "score": 0.03177805800756621,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p17:paragraph:0003:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 17,
+            "text": "cho sinh viên xếp hạng trình độ năm học từ năm thứ 3 trở đi có CPA ≥ 3.2, ĐRL tích lũy ≥ 80, có trình độ ngoại ngữ và môn đăng ký học tập/ thực tập phù hợp.\n\nHọc bổng có giá trị tối đa là 30 triệu đồng/sinh viên.",
+            "metadata": {
+              "section": "quy_che_quy_dinh",
+              "parent_chunk_id": "hust_handbook_2026:p17:paragraph:0003",
+              "token_safe_split": true
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p17:paragraph:0003:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 17,
+            "text": "Không xét, cấp học bổng Trần Đại Nghĩa cho sinh viên diện chế độ chính sách được miễn, giảm học phí theo quy định của Nhà nước.\n\nHỌC BỔNG\n\nTRAO ĐỔI SINH VIÊN\n\nĐỐI TƯỢNG HỌC BỔNG MỨC HỌC BỔNG\n\nHọc bổng xét cấp",
+            "metadata": {
+              "section": "quy_che_quy_dinh",
+              "parent_chunk_id": "hust_handbook_2026:p17:paragraph:0003",
+              "token_safe_split": true
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p14:paragraph:0010 | So tay sinh vien_2026.pdf | page 14]\nĐỊNH MỨC VAY: toàn bộ tiền học phí phải đóng của theo xác nhận của ĐHBK Hà Nội và tiền sinh hoạt phí và chi phí học tập khác tối đa là 5 triệu đồng/tháng.\n\n[hust_handbook_2026:p17:paragraph:0003:token:001 | So tay sinh vien_2026.pdf | page 17]\ncho sinh viên xếp hạng trình độ năm học từ năm thứ 3 trở đi có CPA ≥ 3.2, ĐRL tích lũy ≥ 80, có trình độ ngoại ngữ và môn đăng ký học tập/ thực tập phù hợp.\n\nHọc bổng có giá trị tối đa là 30 triệu đồng/sinh viên.\n\n[hust_handbook_2026:p17:paragraph:0003:token:000 | So tay sinh vien_2026.pdf | page 17]\nKhông xét, cấp học bổng Trần Đại Nghĩa cho sinh viên diện chế độ chính sách được miễn, giảm học phí theo quy định của Nhà nước.\n\nHỌC BỔNG\n\nTRAO ĐỔI SINH VIÊN\n\nĐỐI TƯỢNG HỌC BỔNG MỨC HỌC BỔNG\n\nHọc bổng xét cấp\n\n[hust_handbook_2026:p3:paragraph:0000 | So tay sinh vien_2026.pdf | page 3]\n4 5\n\nTHÔNG ĐIỆP\n\nNĂM HỌC 2026 - 2027",
+        "context_ids": [
+          "hust_handbook_2026:p14:paragraph:0010",
+          "hust_handbook_2026:p17:paragraph:0003:token:001",
+          "hust_handbook_2026:p17:paragraph:0003:token:000",
+          "hust_handbook_2026:p3:paragraph:0000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 11788.93,
+    "usage": [
+      {
+        "prompt_tokens": 462,
+        "completion_tokens": 37,
+        "total_tokens": 499
+      },
+      {
+        "prompt_tokens": 838,
+        "completion_tokens": 35,
+        "total_tokens": 873
+      },
+      {
+        "prompt_tokens": 912,
+        "completion_tokens": 33,
+        "total_tokens": 945
+      }
+    ]
+  },
+  {
+    "query_id": "d7-test-u02",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Phòng tự học Thư viện Tạ Quang Bửu sức chứa",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p29:paragraph:0004",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 29,
+            "text": "Số 5 phố Tạ Quang Bửu Tòa nhà Thư viện Tạ Quang Bửu yte@hust.edu.vn tvtqb@hust.edu.vn 024 38692400 024 22153287",
+            "metadata": {
+              "section": "ban_trung_tam"
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0000:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "NGÀNH\n\nChúng ta tự hào có Thư viện Tạ Quang Bửu - thư viện điện tử lớn nhất Đông Nam Á! Với khối lượng sách khổng lồ ở mọi lĩnh vực, chúng ta hoàn toàn có đủ điều kiện để nghiên cứu các kiến thức chuyên ngành.",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p41:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03131881575727918,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0000:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "80\n\nTÀI LIỆU\n\nTHAM KHẢO\n\nSÁCH GIÁO TRÌNH CÁC MÔN\n\nTrong 15 môn học tại năm nhất, có những môn sẽ yêu cầu sách bài tập như Toán cao cấp, Vật lý đại cương và Tin học đại cương.\n\nSÁCH THAM KHẢO CHUYÊN",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p41:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.03131881575727918,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p29:paragraph:0004 | So tay sinh vien_2026.pdf | page 29]\nSố 5 phố Tạ Quang Bửu Tòa nhà Thư viện Tạ Quang Bửu yte@hust.edu.vn tvtqb@hust.edu.vn 024 38692400 024 22153287\n\n[hust_handbook_2026:p41:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 41]\nNGÀNH\n\nChúng ta tự hào có Thư viện Tạ Quang Bửu - thư viện điện tử lớn nhất Đông Nam Á! Với khối lượng sách khổng lồ ở mọi lĩnh vực, chúng ta hoàn toàn có đủ điều kiện để nghiên cứu các kiến thức chuyên ngành.\n\n[hust_handbook_2026:p41:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 41]\n80\n\nTÀI LIỆU\n\nTHAM KHẢO\n\nSÁCH GIÁO TRÌNH CÁC MÔN\n\nTrong 15 môn học tại năm nhất, có những môn sẽ yêu cầu sách bài tập như Toán cao cấp, Vật lý đại cương và Tin học đại cương.\n\nSÁCH THAM KHẢO CHUYÊN",
+        "context_ids": [
+          "hust_handbook_2026:p29:paragraph:0004",
+          "hust_handbook_2026:p41:paragraph:0000:token:001",
+          "hust_handbook_2026:p41:paragraph:0000:token:000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "sức chứa phòng tự học Thư viện Tạ Quang Bửu",
+        "filter": null,
+        "results": [
+          {
+            "id": "hust_handbook_2026:p29:paragraph:0004",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 29,
+            "text": "Số 5 phố Tạ Quang Bửu Tòa nhà Thư viện Tạ Quang Bửu yte@hust.edu.vn tvtqb@hust.edu.vn 024 38692400 024 22153287",
+            "metadata": {
+              "section": "ban_trung_tam"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0000:token:001",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "NGÀNH\n\nChúng ta tự hào có Thư viện Tạ Quang Bửu - thư viện điện tử lớn nhất Đông Nam Á! Với khối lượng sách khổng lồ ở mọi lĩnh vực, chúng ta hoàn toàn có đủ điều kiện để nghiên cứu các kiến thức chuyên ngành.",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p41:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf"
+          },
+          {
+            "id": "hust_handbook_2026:p41:paragraph:0000:token:000",
+            "source_id": "hust_handbook_2026",
+            "source": "So tay sinh vien_2026.pdf",
+            "page": 41,
+            "text": "80\n\nTÀI LIỆU\n\nTHAM KHẢO\n\nSÁCH GIÁO TRÌNH CÁC MÔN\n\nTrong 15 môn học tại năm nhất, có những môn sẽ yêu cầu sách bài tập như Toán cao cấp, Vật lý đại cương và Tin học đại cương.\n\nSÁCH THAM KHẢO CHUYÊN",
+            "metadata": {
+              "section": "chia_se_kinh_nghiem",
+              "parent_chunk_id": "hust_handbook_2026:p41:paragraph:0000",
+              "token_safe_split": true
+            },
+            "score": 0.031054405392392875,
+            "strategy": "hybrid_rrf_sibling"
+          }
+        ],
+        "context": "[hust_handbook_2026:p29:paragraph:0004 | So tay sinh vien_2026.pdf | page 29]\nSố 5 phố Tạ Quang Bửu Tòa nhà Thư viện Tạ Quang Bửu yte@hust.edu.vn tvtqb@hust.edu.vn 024 38692400 024 22153287\n\n[hust_handbook_2026:p41:paragraph:0000:token:001 | So tay sinh vien_2026.pdf | page 41]\nNGÀNH\n\nChúng ta tự hào có Thư viện Tạ Quang Bửu - thư viện điện tử lớn nhất Đông Nam Á! Với khối lượng sách khổng lồ ở mọi lĩnh vực, chúng ta hoàn toàn có đủ điều kiện để nghiên cứu các kiến thức chuyên ngành.\n\n[hust_handbook_2026:p41:paragraph:0000:token:000 | So tay sinh vien_2026.pdf | page 41]\n80\n\nTÀI LIỆU\n\nTHAM KHẢO\n\nSÁCH GIÁO TRÌNH CÁC MÔN\n\nTrong 15 môn học tại năm nhất, có những môn sẽ yêu cầu sách bài tập như Toán cao cấp, Vật lý đại cương và Tin học đại cương.\n\nSÁCH THAM KHẢO CHUYÊN",
+        "context_ids": [
+          "hust_handbook_2026:p29:paragraph:0004",
+          "hust_handbook_2026:p41:paragraph:0000:token:001",
+          "hust_handbook_2026:p41:paragraph:0000:token:000"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 5724.31,
+    "usage": [
+      {
+        "prompt_tokens": 460,
+        "completion_tokens": 31,
+        "total_tokens": 491
+      },
+      {
+        "prompt_tokens": 827,
+        "completion_tokens": 31,
+        "total_tokens": 858
+      },
+      {
+        "prompt_tokens": 843,
+        "completion_tokens": 31,
+        "total_tokens": 874
+      }
+    ]
+  }
+]

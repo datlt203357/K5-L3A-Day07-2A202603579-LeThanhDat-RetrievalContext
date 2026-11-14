@@ -1,0 +1,324 @@
+{
+  "summary": {
+    "split": "dev",
+    "cases": 17,
+    "answerable": 15,
+    "answerable_answered": 15,
+    "answerable_grounded_and_cited": 15,
+    "unanswerable": 2,
+    "correct_abstentions": 2,
+    "citation_support_rule": "A boolean support label is recorded for every citation, based on the cited chunk and the claim it accompanies; grades are human-reviewed."
+  },
+  "items": [
+    {
+      "query_id": "d7-dev-01",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Từ 90 đến 100 điểm.",
+      "answer": "Mức điểm rèn luyện được xếp loại xuất sắc là từ 90 điểm đến 100 điểm [hust_handbook_2026:p10:paragraph:0002:token:001].[hust_handbook_2026:p10:paragraph:0002:token:000]",
+      "citations": [
+        "hust_handbook_2026:p10:paragraph:0002:token:001",
+        "hust_handbook_2026:p10:paragraph:0002:token:000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        false
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-02",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Tránh lãng phí cho cá nhân và xã hội, góp phần bảo vệ môi trường và lan tỏa yêu thương.",
+      "answer": "Chương trình ATM quà hướng đến các mục đích như tránh lãng phí cho từng cá nhân và xã hội, góp phần bảo vệ môi trường, và lan tỏa yêu thương [hust_handbook_2026:p20:paragraph:0004].",
+      "citations": [
+        "hust_handbook_2026:p20:paragraph:0004"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-03",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Cho tặng hoặc tìm các món đồ mới/cũ miễn phí.",
+      "answer": "Sinh viên có thể tham gia chương trình ATM quà bằng cách tặng và tìm kiếm các loại đồ mới hoặc cũ hoàn toàn miễn phí. Họ có thể cho tặng những món đồ không cần dùng tới để người khác có thể sử dụng, hoặc tìm kiếm những món đồ cần thiết mà không phải mua, từ đó tiết kiệm chi phí và tránh lãng phí [hust_handbook_2026:p20:paragraph:0003:token:000][hust_handbook_2026:p20:paragraph:0003:token:001][hust_handbook_2026:p20:paragraph:0004].",
+      "citations": [
+        "hust_handbook_2026:p20:paragraph:0003:token:000",
+        "hust_handbook_2026:p20:paragraph:0003:token:001",
+        "hust_handbook_2026:p20:paragraph:0004"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-04",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Phòng 101-C1, Đại học Bách khoa Hà Nội.",
+      "answer": "Tổ Tư vấn và Hỗ trợ Sinh viên tiếp sinh viên trực tiếp tại địa chỉ: Phòng 101-C1, ĐHBK Hà Nội [hust_handbook_2026:p21:paragraph:0007].",
+      "citations": [
+        "hust_handbook_2026:p21:paragraph:0007"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-05",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Từ năm học 2021–2022.",
+      "answer": "HUST triển khai web và app eHUST từ năm học 2021-2022 [hust_handbook_2026:p22:paragraph:0002:token:001].[hust_handbook_2026:p22:paragraph:0002:token:000]",
+      "citations": [
+        "hust_handbook_2026:p22:paragraph:0002:token:001",
+        "hust_handbook_2026:p22:paragraph:0002:token:000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        false
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-06",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Lịch học, lịch công việc, tin tức và thông báo quan trọng.",
+      "answer": "Ứng dụng eHUST có thể nhắc sinh viên những thông tin về lịch học, lịch công việc cũng như các tin tức, thông báo quan trọng [hust_handbook_2026:p22:paragraph:0004].",
+      "citations": [
+        "hust_handbook_2026:p22:paragraph:0004"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-07",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Hỗ trợ việc đánh giá điểm rèn luyện cho sinh viên.",
+      "answer": "Hệ thống sổ tay sinh viên trực tuyến hỗ trợ các công việc như:\n\n1. Đánh giá điểm rèn luyện cho sinh viên.\n2. Đăng ký và cập nhật thông tin tài khoản.\n3. Gán quyền thao tác trên hệ thống cho các cá nhân liên quan.\n4. Công bố hoạt động và tiếp nhận đăng ký tham gia nhóm và hoạt động.\n5. Đăng ký học phần, lớp học, tra cứu điểm, đăng ký học bổng, và sử dụng các dịch vụ trực tuyến khác.\n\nThông tin này được trích từ các đoạn trong tài liệu [hust_handbook_2026:p23:paragraph:0003], [hust_handbook_2026:p23:paragraph:0001:token:001], và [hust_handbook_2026:p23:paragraph:0001:token:000].",
+      "citations": [
+        "hust_handbook_2026:p23:paragraph:0003",
+        "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "hust_handbook_2026:p23:paragraph:0001:token:000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        true,
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-08",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Tài khoản email sinh viên được cấp để truy cập hệ thống cổng thông tin.",
+      "answer": "Sinh viên được cấp tài khoản email để truy cập vào hệ thống cổng thông tin, từ đó có thể đăng ký học phần, đăng ký lớp học, tra cứu điểm, và sử dụng các dịch vụ trực tuyến khác [hust_handbook_2026:p23:paragraph:0001:token:001].[hust_handbook_2026:p23:paragraph:0001:token:000]",
+      "citations": [
+        "hust_handbook_2026:p23:paragraph:0001:token:001",
+        "hust_handbook_2026:p23:paragraph:0001:token:000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        false
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-09",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Sáng thứ Ba, thứ Tư và thứ Năm hằng tuần, từ 8 giờ 30 đến 11 giờ.",
+      "answer": "Đảng ủy Khối các trường ĐH, CĐ Hà Nội nhận hồ sơ chuyển sinh hoạt Đảng vào các buổi sáng Thứ Ba, Thứ Tư và Thứ Năm hàng tuần, từ 8 giờ 30 đến 11 giờ 00 [hust_handbook_2026:p25:paragraph:0002].",
+      "citations": [
+        "hust_handbook_2026:p25:paragraph:0002"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-10",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Mỗi tháng một lần.",
+      "answer": "Chi bộ sinh viên họp chính trị định kỳ mỗi tháng một lần [hust_handbook_2026:p26:paragraph:0003].",
+      "citations": [
+        "hust_handbook_2026:p26:paragraph:0003"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-11",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Đại diện cho sinh viên toàn trường.",
+      "answer": "Hội Sinh viên đại diện cho sinh viên toàn trường [hust_handbook_2026:p27:paragraph:0002:token:001].[hust_handbook_2026:p27:paragraph:0002:token:000]",
+      "citations": [
+        "hust_handbook_2026:p27:paragraph:0002:token:001",
+        "hust_handbook_2026:p27:paragraph:0002:token:000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        false
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-12",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Quản lý, tư vấn và hỗ trợ người học; tạo điều kiện để họ phát huy năng lực và hoàn thiện nhân cách, kỹ năng nghề nghiệp, kỹ năng sống.",
+      "answer": "Nhiệm vụ chính của Ban Công tác Sinh viên đối với người học bao gồm quản lý, tư vấn và hỗ trợ người học; tạo điều kiện cho người học, đặc biệt là những người có hoàn cảnh khó khăn, phát huy tối đa năng lực và hoàn thiện nhân cách, kỹ năng nghề nghiệp, kỹ năng sống. Ban cũng tổ chức các hoạt động xã hội và xây dựng môi trường văn hóa gắn với truyền thống của ĐHBK Hà Nội cũng như hòa nhập với môi trường quốc tế cho người học [hust_handbook_2026:p28:paragraph:0000:token:000].[hust_handbook_2026:p28:paragraph:0000:token:001]",
+      "citations": [
+        "hust_handbook_2026:p28:paragraph:0000:token:000",
+        "hust_handbook_2026:p28:paragraph:0000:token:001"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true,
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-13",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "B9 - 101, 102, 103.",
+      "answer": "Văn phòng Quản lý ký túc xá có địa chỉ tại B9 - 101, 102, 103 [hust_handbook_2026:p29:paragraph:0003:token:000].",
+      "citations": [
+        "hust_handbook_2026:p29:paragraph:0003:token:000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-14",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "13 chương trình đào tạo.",
+      "answer": "Trường Cơ khí có 13 chương trình đào tạo theo sổ tay sinh viên 2026 [hust_handbook_2026:p30:paragraph:0001].",
+      "citations": [
+        "hust_handbook_2026:p30:paragraph:0001"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-15",
+      "kind": "answerable",
+      "status": "answered",
+      "expected_answer": "Gồm 4 khoa, 1 trung tâm đào tạo thực hành và 1 viện nghiên cứu.",
+      "answer": "Trường Điện – Điện tử gồm 4 khoa, 1 trung tâm đào tạo thực hành và 1 viện nghiên cứu [hust_handbook_2026:p31:paragraph:0000].",
+      "citations": [
+        "hust_handbook_2026:p31:paragraph:0000"
+      ],
+      "citation_ids_valid": true,
+      "gold_evidence_in_cited_chunk": true,
+      "grounded_score": 2,
+      "review": "grounded_and_cited",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2
+    },
+    {
+      "query_id": "d7-dev-u01",
+      "kind": "unanswerable",
+      "status": "abstain",
+      "citations": [],
+      "citation_ids_valid": true,
+      "review": "correct_abstention",
+      "notes": "Question has no answer evidence in the approved corpus.",
+      "citation_support": [],
+      "context_grade": null
+    },
+    {
+      "query_id": "d7-dev-u02",
+      "kind": "unanswerable",
+      "status": "abstain",
+      "citations": [],
+      "citation_ids_valid": true,
+      "review": "correct_abstention",
+      "notes": "Question has no answer evidence in the approved corpus.",
+      "citation_support": [],
+      "context_grade": null
+    }
+  ]
+}

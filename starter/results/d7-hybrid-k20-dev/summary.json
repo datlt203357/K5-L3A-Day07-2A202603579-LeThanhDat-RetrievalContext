@@ -1,0 +1,44 @@
+[
+  {
+    "method": "dense_day6",
+    "split": "dev",
+    "n": 15,
+    "hit1": 6,
+    "hit3": 11,
+    "context_hit": 8,
+    "avg_context_chars": 620.2666666666667,
+    "median_ms": 80.91040002182126,
+    "service_cost_usd": 0,
+    "candidate_k": 20,
+    "day6_strategy": "B",
+    "rrf_k": 60
+  },
+  {
+    "method": "tfidf",
+    "split": "dev",
+    "n": 15,
+    "hit1": 9,
+    "hit3": 11,
+    "context_hit": 10,
+    "avg_context_chars": 609.1333333333333,
+    "median_ms": 3.095699939876795,
+    "service_cost_usd": 0,
+    "candidate_k": 20,
+    "day6_strategy": "B",
+    "rrf_k": 60
+  },
+  {
+    "method": "hybrid_rrf",
+    "split": "dev",
+    "n": 15,
+    "hit1": 9,
+    "hit3": 12,
+    "context_hit": 11,
+    "avg_context_chars": 601.8666666666667,
+    "median_ms": 87.60030008852482,
+    "service_cost_usd": 0,
+    "candidate_k": 20,
+    "day6_strategy": "B",
+    "rrf_k": 60
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "split": "test",
+  "retriever_mode": "hybrid_rrf",
+  "agent_model": "gpt-4o-mini",
+  "context_budget_chars": 1600,
+  "manual_review": {
+    "answerable_context_grades": {
+      "0": 1,
+      "1": 1,
+      "2": 3
+    },
+    "mean_context_grade": 1.4,
+    "per_citation_support": {
+      "valid": 4,
+      "total": 5
+    },
+    "citation_support_by_query": 2,
+    "manual_labels": [
+      {
+        "query_id": "d7-test-01",
+        "answerable": true,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": 0,
+        "context_grade": 0,
+        "tool_calls": 2,
+        "elapsed_ms": 6445.7,
+        "notes": "False refusal: retrieved context did not include the evidence sentence."
+      },
+      {
+        "query_id": "d7-test-02",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Đề cương và đề thi các năm trước có sẵn tại thư viện Tạ Quang Bửu [hust_handbook_2026:p42:paragraph:0000:token:000].[hust_handbook_2026:p42:paragraph:0000:token:001]",
+        "citations": [
+          "hust_handbook_2026:p42:paragraph:0000:token:000",
+          "hust_handbook_2026:p42:paragraph:0000:token:001"
+        ],
+        "citation_support": [
+          true,
+          false
+        ],
+        "answer_grade": 2,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 4614.62,
+        "notes": "The first citation supports the library answer; the auto-added continuation citation does not support that claim."
+      },
+      {
+        "query_id": "d7-test-03",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Học với bạn cùng lứa có thể giúp việc tiếp cận kiến thức dễ hiểu hơn nhờ vào ngôn từ và cách diễn đạt đơn giản, gần gũi. Bạn cùng lứa có thể cung cấp những mẹo và cách diễn đạt độc đáo, giúp ghi nhớ kiến thức lâu hơn. Ngoài ra, việc học nhóm còn tạo ra những tình huống vui vẻ, như những tràng cười khi mắc lỗi, giúp bạn nhớ kiến thức một cách sâu sắc hơn [hust_handbook_2026:p43:paragraph:0000:token:001][hust_handbook_2026:p43:paragraph:0000:token:000].",
+        "citations": [
+          "hust_handbook_2026:p43:paragraph:0000:token:001",
+          "hust_handbook_2026:p43:paragraph:0000:token:000"
+        ],
+        "citation_support": [
+          true,
+          true
+        ],
+        "answer_grade": 2,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 5562.95,
+        "notes": "The two continuation chunks support the simpler-explanation and memory examples in the answer."
+      },
+      {
+        "query_id": "d7-test-04",
+        "answerable": true,
+        "status": "answered",
+        "answer": "Tỷ lệ thành công gắn với kiến thức chuyên môn là 15%, trong khi tỷ lệ gắn với kỹ năng mềm là 85% [hust_handbook_2026:p44:paragraph:0002].",
+        "citations": [
+          "hust_handbook_2026:p44:paragraph:0002"
+        ],
+        "citation_support": [
+          true
+        ],
+        "answer_grade": 2,
+        "context_grade": 2,
+        "tool_calls": 1,
+        "elapsed_ms": 4481.14,
+        "notes": "The cited chunk directly supports both percentages."
+      },
+      {
+        "query_id": "d7-test-05",
+        "answerable": true,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": 0,
+        "context_grade": 1,
+        "tool_calls": 2,
+        "elapsed_ms": 5205.81,
+        "notes": "False refusal: context contains related project-planning skill but misses the complete requested evidence."
+      },
+      {
+        "query_id": "d7-test-u01",
+        "answerable": false,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": null,
+        "context_grade": null,
+        "tool_calls": 2,
+        "elapsed_ms": 11788.93,
+        "notes": "Correctly abstains; the corpus has no official per-credit tuition for that school/year."
+      },
+      {
+        "query_id": "d7-test-u02",
+        "answerable": false,
+        "status": "abstain",
+        "answer": "Không đủ bằng chứng để trả lời.",
+        "citations": [],
+        "citation_support": [],
+        "answer_grade": null,
+        "context_grade": null,
+        "tool_calls": 2,
+        "elapsed_ms": 5724.31,
+        "notes": "Correctly abstains; the corpus gives no study-room seating capacity."
+      }
+    ]
+  }
+}

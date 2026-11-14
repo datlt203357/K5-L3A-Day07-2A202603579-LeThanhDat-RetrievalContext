@@ -1,0 +1,18 @@
+{
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimensions": 384,
+  "vector_store": "PostgreSQL + pgvector",
+  "day6_strategy": "B",
+  "candidate_k": 10,
+  "rrf_k": 60,
+  "context_budget_chars": 1200,
+  "setup_seconds_including_model_load": 5.970376699930057,
+  "query_embedding_seconds_total": 0.5644222998525947,
+  "dense_search_seconds_total": 0.7680403998820111,
+  "retrieval_methods": [
+    "dense_day6",
+    "tfidf",
+    "hybrid_rrf"
+  ],
+  "note": "Gold is used only after retrieval to score evidence; it is not passed to the retriever."
+}

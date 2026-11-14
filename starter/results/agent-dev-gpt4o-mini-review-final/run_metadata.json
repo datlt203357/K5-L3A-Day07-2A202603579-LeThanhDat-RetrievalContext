@@ -1,0 +1,21 @@
+{
+  "split": "dev",
+  "agent_model": "gpt-4o-mini",
+  "base_url": "https://api.shopaikey.com/v1",
+  "retriever": "Day 6 dense strategy B + TF-IDF fused by RRF",
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "embedding_dimensions": 384,
+  "candidate_k": 10,
+  "rrf_k": 60,
+  "max_searches": 2,
+  "top_k": 3,
+  "context_budget_chars": 1600,
+  "cases": 17,
+  "api_usage": {
+    "prompt_tokens": 27049,
+    "completion_tokens": 1739,
+    "total_tokens": 28788,
+    "cost_usd": null,
+    "cost_note": "Use the model and key-group pricing shown in the provider account; the script does not guess the billed rate."
+  }
+}

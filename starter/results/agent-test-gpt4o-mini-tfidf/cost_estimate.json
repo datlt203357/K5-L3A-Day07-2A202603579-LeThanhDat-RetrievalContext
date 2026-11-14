@@ -1,0 +1,21 @@
+{
+  "agent_model": "gpt-4o-mini",
+  "prompt_tokens": 12300,
+  "completion_tokens": 756,
+  "published_rate_range_usd_per_1m": {
+    "input": [
+      0.15,
+      0.18
+    ],
+    "output": [
+      0.6,
+      0.72
+    ]
+  },
+  "estimated_cost_usd_range": {
+    "low": 0.0022986,
+    "high": 0.00275832
+  },
+  "pricing_source": "https://shopaikey.com/models",
+  "note": "Estimate only; actual billed amount depends on the API key group and provider billing."
+}
